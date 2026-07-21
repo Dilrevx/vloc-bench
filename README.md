@@ -295,13 +295,47 @@ Other runners (Qwen, Gemma) use `/v1/chat/completions` — vLLM handles template
 
 ### Website
 
-GitHub Pages leaderboard served from `website/`:
+GitHub Pages leaderboard served from `docs/`:
 
 ```
-website/
+docs/
 ├── index.html              # Interactive single-page leaderboard (all CSS/JS inline)
 └── model-performance.json  # Eval results data
 ```
+
+## Leaderboard Participation
+
+We welcome submissions of new model results to the [public leaderboard](https://cisco-foundation-ai.github.io/vulnerability-localization-benchmark/). To add your model:
+
+1. **Evaluate your model** on the benchmark by following the [evaluation instructions](#usage) above. This produces a per-model results file.
+2. **Fork** this repository.
+3. **Add your model's entry** to `docs/model-performance.json`. Each entry follows this schema:
+
+   ```json
+   {
+     "model": "Your-Model-Name",
+     "type": "frontier",              // "frontier" or "open-weights"
+     "size": "7B",                    // parameter count; "—" for closed frontier models
+     "file_f1": 0.123,                // Phase A: File F1 (0–1)
+     "precision": 0.234,
+     "recall": 0.201,
+     "true_negative_rate": 0.567,     // Phase B (optional)
+     "false_positive_rate": 0.089,
+     "submitted_nothing_rate": 0.145
+   }
+   ```
+
+4. **Open a pull request** with your added entry and a short description of your evaluation setup (model version, harness, date).
+
+### ✅ Result Verification
+
+To keep the leaderboard trustworthy, submissions should include enough detail to reproduce the run:
+
+- The exact model identifier / version and inference settings (temperature, reasoning effort, etc.).
+- The harness used (this repo's CLI, or a documented equivalent).
+- Raw evaluation output (attach to the PR or link to it) so maintainers can spot-check the reported metrics.
+
+Maintainers may request the raw prediction logs before merging. Once verified, your model appears on the live leaderboard.
 
 ## Roadmap
 
