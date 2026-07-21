@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "title": "Benchmark Analytics",
+    "description": "Deep behavioral analysis across 32 external models on vulnerability localization",
+    "total_evaluations": 31128,
+    "total_models": 32,
+    "total_entries": 500,
+    "unsolvable_entries": 192,
+    "last_updated": "2026-06-26"
+  },
+  "scaling": {
+    "description": "Model size vs File F1 — log(params) explains ~25% of variance (r=0.50)",
+    "correlation_r": 0.50,
+    "models": [
+      {"model": "gpt-5.5_xhigh", "size_b": 1000, "f1": 0.2292},
+      {"model": "gpt-5.5", "size_b": 1000, "f1": 0.2214},
+      {"model": "gemini-3-pro-preview", "size_b": 500, "f1": 0.1519},
+      {"model": "gemini-2.5-flash", "size_b": 300, "f1": 0.1017},
+      {"model": "gpt-5-mini", "size_b": 200, "f1": 0.0982},
+      {"model": "deepseek-v4-flash", "size_b": 236, "f1": 0.0033},
+      {"model": "gpt-oss-120B", "size_b": 120, "f1": 0.0687},
+      {"model": "Qwen3.5-122B-A10B", "size_b": 122, "f1": 0.0907},
+      {"model": "gemini-3.1-flash-lite", "size_b": 100, "f1": 0.0949},
+      {"model": "Llama-3.3-70B", "size_b": 70, "f1": 0.0123},
+      {"model": "Primus-Reasoning", "size_b": 70, "f1": 0.0022},
+      {"model": "gpt-5-nano", "size_b": 50, "f1": 0.0236},
+      {"model": "minimax-m2.7", "size_b": 456, "f1": 0.0538},
+      {"model": "Qwen3.5-35B-A3B", "size_b": 35, "f1": 0.0847},
+      {"model": "gemma-4-31B", "size_b": 31, "f1": 0.1005},
+      {"model": "Qwen3.5-27B", "size_b": 27, "f1": 0.0914},
+      {"model": "gemma-4-26B-A4B", "size_b": 26, "f1": 0.0215},
+      {"model": "gpt-oss-20B", "size_b": 20, "f1": 0.0700},
+      {"model": "CodeScout-14B", "size_b": 14, "f1": 0.0437},
+      {"model": "Qwen3.5-9B", "size_b": 9, "f1": 0.0427},
+      {"model": "DS-R1-Qwen-7B", "size_b": 7, "f1": 0.0020},
+      {"model": "FoundSec-Instruct", "size_b": 7, "f1": 0.0001},
+      {"model": "Qwen3.5-4B", "size_b": 4, "f1": 0.0109},
+      {"model": "gemma-4-E4B", "size_b": 4, "f1": 0.0337},
+      {"model": "Nanbeige4.1-3B", "size_b": 3, "f1": 0.0212},
+      {"model": "gemma-4-E2B", "size_b": 2, "f1": 0.0393},
+      {"model": "CodeScout-1.7B", "size_b": 1.7, "f1": 0.0305},
+      {"model": "CodeScout-1.7B-RFT", "size_b": 1.7, "f1": 0.0359},
+      {"model": "Qwen3.5-0.8B", "size_b": 0.8, "f1": 0.0013},
+      {"model": "gpt-5", "size_b": 1500, "f1": 0.0483},
+      {"model": "gpt-4o-mini", "size_b": 70, "f1": 0.0007},
+      {"model": "GLM-4.7-Flash", "size_b": 9, "f1": 0.0118}
+    ]
+  },
+  "exploration_depth": {
+    "description": "Average terminal calls used per model — larger models use more of their 15-call budget (r=0.72)",
+    "correlation_r": 0.72,
+    "models": [
+      {"model": "gpt-5.5_xhigh", "avg_calls": 14.95, "pct_maxed": 99.0},
+      {"model": "gpt-5.5", "avg_calls": 14.91, "pct_maxed": 97.8},
+      {"model": "gemini-3-pro-preview", "avg_calls": 14.92, "pct_maxed": 98.2},
+      {"model": "gpt-5-nano", "avg_calls": 14.98, "pct_maxed": 99.4},
+      {"model": "minimax-m2.7", "avg_calls": 14.95, "pct_maxed": 99.4},
+      {"model": "deepseek-v4-flash", "avg_calls": 14.94, "pct_maxed": 98.6},
+      {"model": "Qwen3.5-35B-A3B", "avg_calls": 14.96, "pct_maxed": 99.0},
+      {"model": "gemma-4-31B", "avg_calls": 14.17, "pct_maxed": 84.4},
+      {"model": "gemini-2.5-flash", "avg_calls": 10.43, "pct_maxed": 32.9},
+      {"model": "Qwen3.5-27B", "avg_calls": 8.81, "pct_maxed": 57.0},
+      {"model": "CodeScout-14B", "avg_calls": 6.42, "pct_maxed": 1.8},
+      {"model": "gemma-4-E2B", "avg_calls": 3.95, "pct_maxed": 0.6},
+      {"model": "CodeScout-1.7B", "avg_calls": 3.03, "pct_maxed": 0.0},
+      {"model": "Llama-3.3-70B", "avg_calls": 1.92, "pct_maxed": 0.0},
+      {"model": "DS-R1-Qwen-7B", "avg_calls": 0.85, "pct_maxed": 0.0}
+    ]
+  },
+  "repo_size_effect": {
+    "description": "Repo size is the strongest predictor of difficulty — 16x performance gap between smallest and largest",
+    "correlation_r": -0.25,
+    "buckets": ["<100KB", "100-500KB", "500KB-2MB", "2-10MB", "10-50MB", ">50MB"],
+    "mean_f1": [0.2533, 0.1276, 0.0813, 0.0300, 0.0285, 0.0157],
+    "by_size_class": {
+      "large_models": [0.3289, 0.1595, 0.1087, 0.0449, 0.0402, 0.0253],
+      "medium_models": [0.2169, 0.0967, 0.0716, 0.0193, 0.0209, 0.0097],
+      "small_models": [0.1144, 0.0995, 0.0286, 0.0091, 0.0109, 0.0008]
+    }
+  },
+  "cwe_difficulty": {
+    "easiest": [
+      {"cwe": "CWE-843", "name": "Type Confusion", "mean_f1": 0.400, "n_evals": 30},
+      {"cwe": "CWE-1321", "name": "Prototype Pollution", "mean_f1": 0.251, "n_evals": 334},
+      {"cwe": "CWE-61", "name": "Symlink Following", "mean_f1": 0.251, "n_evals": 61},
+      {"cwe": "CWE-409", "name": "Compressed Data Handling", "mean_f1": 0.237, "n_evals": 62},
+      {"cwe": "CWE-377", "name": "Insecure Temp File", "mean_f1": 0.234, "n_evals": 61},
+      {"cwe": "CWE-177", "name": "URL Encoding", "mean_f1": 0.215, "n_evals": 62},
+      {"cwe": "CWE-913", "name": "Dynamic Code Resources", "mean_f1": 0.211, "n_evals": 60},
+      {"cwe": "CWE-1336", "name": "Template Injection", "mean_f1": 0.187, "n_evals": 91}
+    ],
+    "hardest": [
+      {"cwe": "CWE-732", "name": "Incorrect Permissions", "mean_f1": 0.0, "n_evals": 90},
+      {"cwe": "CWE-667", "name": "Improper Locking", "mean_f1": 0.0, "n_evals": 61},
+      {"cwe": "CWE-488", "name": "Data Exposure", "mean_f1": 0.0, "n_evals": 63},
+      {"cwe": "CWE-401", "name": "Memory Leak", "mean_f1": 0.0, "n_evals": 61},
+      {"cwe": "CWE-385", "name": "Covert Timing Channel", "mean_f1": 0.0, "n_evals": 61},
+      {"cwe": "CWE-319", "name": "Cleartext Transmission", "mean_f1": 0.0, "n_evals": 60},
+      {"cwe": "CWE-307", "name": "Excessive Auth Attempts", "mean_f1": 0.0, "n_evals": 60},
+      {"cwe": "CWE-121", "name": "Stack Buffer Overflow", "mean_f1": 0.0, "n_evals": 61}
+    ]
+  },
+  "ecosystem_breakdown": {
+    "labels": ["npm", "pip", "rust", "go", "maven", "composer"],
+    "mean_f1": [0.1363, 0.1094, 0.0451, 0.0408, 0.0174, 0.0000],
+    "n_evals": [2681, 1584, 1232, 6546, 3173, 30],
+    "by_size_class": {
+      "large_models": [0.1792, 0.1274, 0.0771, 0.0562, 0.0248, 0.0000],
+      "medium_models": [0.1162, 0.0858, 0.0148, 0.0318, 0.0124, 0.0000],
+      "small_models": [0.0575, 0.1040, 0.0155, 0.0162, 0.0067, 0.0000]
+    }
+  },
+  "severity_breakdown": {
+    "labels": ["critical", "low", "medium", "high"],
+    "mean_f1": [0.0792, 0.0661, 0.0586, 0.0556],
+    "by_size_class": {
+      "large_models": [0.1005, 0.0891, 0.0795, 0.0745],
+      "medium_models": [0.0722, 0.0531, 0.0424, 0.0433],
+      "small_models": [0.0375, 0.0290, 0.0319, 0.0275]
+    }
+  },
+  "command_strategies": {
+    "description": "Exploration command distribution varies significantly by model family",
+    "models": [
+      {"model": "gpt-5.5_xhigh", "grep_pct": 30.3, "find_pct": 12.2, "cat_pct": 23.2, "ls_pct": 4.8, "other_pct": 29.5},
+      {"model": "gemma-4-31B", "grep_pct": 47.3, "find_pct": 10.4, "cat_pct": 35.0, "ls_pct": 2.4, "other_pct": 4.9},
+      {"model": "CodeScout-1.7B", "grep_pct": 94.4, "find_pct": 0.0, "cat_pct": 0.0, "ls_pct": 0.0, "other_pct": 5.6},
+      {"model": "Qwen3.5-122B-A10B", "grep_pct": 32.6, "find_pct": 12.0, "cat_pct": 30.2, "ls_pct": 12.5, "other_pct": 12.7},
+      {"model": "deepseek-v4-flash", "grep_pct": 14.8, "find_pct": 19.1, "cat_pct": 38.7, "ls_pct": 11.1, "other_pct": 16.3},
+      {"model": "Llama-3.3-70B", "grep_pct": 85.6, "find_pct": 14.4, "cat_pct": 0.0, "ls_pct": 0.0, "other_pct": 0.0},
+      {"model": "gpt-oss-20B", "grep_pct": 57.4, "find_pct": 0.0, "cat_pct": 1.0, "ls_pct": 6.9, "other_pct": 34.7}
+    ]
+  },
+  "exploration_vs_f1": {
+    "description": "F1 by number of terminal calls — peak at 11 commands, diminishing returns after",
+    "n_calls": [0, 1, 2, 3, 5, 7, 9, 11, 13, 14, 15],
+    "mean_f1": [0.0, 0.0077, 0.0134, 0.0689, 0.0750, 0.0865, 0.1050, 0.1217, 0.1100, 0.0939, 0.0803],
+    "pct_f1_gt0": [0.0, 2.0, 1.7, 10.1, 9.5, 11.9, 14.0, 18.3, 16.5, 14.9, 13.1]
+  },
+  "tool_errors": {
+    "description": "Tool calling error rates vary from <1% to 49% across models",
+    "models": [
+      {"model": "Qwen3.5-35B-A3B", "error_rate_pct": 48.8, "errors_per_trace": 11.99},
+      {"model": "GLM-4.7-Flash", "error_rate_pct": 39.9, "errors_per_trace": 7.18},
+      {"model": "Qwen3.5-9B", "error_rate_pct": 37.9, "errors_per_trace": 7.60},
+      {"model": "deepseek-v4-flash", "error_rate_pct": 34.6, "errors_per_trace": 6.24},
+      {"model": "gpt-5.5_xhigh", "error_rate_pct": 33.2, "errors_per_trace": 5.59},
+      {"model": "minimax-m2.7", "error_rate_pct": 28.0, "errors_per_trace": 4.98},
+      {"model": "gemma-4-31B", "error_rate_pct": 18.8, "errors_per_trace": 2.97},
+      {"model": "gpt-oss-120B", "error_rate_pct": 5.7, "errors_per_trace": 0.76},
+      {"model": "CodeScout-14B", "error_rate_pct": 2.4, "errors_per_trace": 0.18},
+      {"model": "CodeScout-1.7B", "error_rate_pct": 0.8, "errors_per_trace": 0.03}
+    ]
+  },
+  "ground_truth_complexity": {
+    "description": "Single-file vulnerabilities are 5.5x easier than multi-file ones",
+    "n_gt_files": [1, 2, 3, 4, "5+"],
+    "mean_f1": [0.1114, 0.0725, 0.0399, 0.0227, 0.0200],
+    "pct_f1_gt0": [12.1, 11.5, 7.5, 5.2, 5.8]
+  },
+  "unsolvable_entries": {
+    "description": "192/500 entries (38.4%) solved by zero models across all 32 evaluated",
+    "count": 192,
+    "by_ecosystem": {"go": 95, "maven": 59, "npm": 17, "rust": 12, "pip": 8, "composer": 1},
+    "mean_repo_size_mb": 57,
+    "median_repo_size_mb": 21.7
+  }
+}

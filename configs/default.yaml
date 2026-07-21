@@ -1,0 +1,27 @@
+model:
+  api_base: "http://localhost:8000/v1"
+  name: ""
+  runner: "vllm"  # vllm | vllm_antares | openai
+
+agent:
+  max_turns: 20
+  max_terminal_calls: 15
+  temperature: 0.3
+  max_tokens: 16384
+  frequency_penalty: 0.3
+
+sandbox:
+  image: "vulnerability-localization-benchmark-sandbox"
+  cpus: 2
+  memory: "4g"
+  network: "none"
+  command_timeout: 10
+
+eval:
+  phases: "ab"
+  workers: 1
+  resume: false
+
+data:
+  manifest: "data/manifest.csv"
+  zips_dir: "data/ghsa-vulns"

@@ -1,0 +1,4 @@
+data/ghsa-vulns/
+results/
+__pycache__/
+*.pyc
