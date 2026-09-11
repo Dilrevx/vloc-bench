@@ -16,7 +16,7 @@ Vulnerability Localization Benchmark is an agentic benchmark for evaluating AI m
 
 Unlike static code understanding benchmarks, Vulnerability Localization Benchmark measures end-to-end localization performance in realistic repository exploration settings using terminal-based interactions.
 
-📄 **Technical Report** (coming soon) | arXiv (coming soon)
+📄 **[Technical Report](docs/technical-report.pdf)** | arXiv (coming soon)
 
 ## Getting Started
 
@@ -300,7 +300,8 @@ GitHub Pages leaderboard served from `docs/`:
 ```
 docs/
 ├── index.html              # Interactive single-page leaderboard (all CSS/JS inline)
-└── model-performance.json  # Eval results data
+├── model-performance.json  # Eval results data
+└── technical-report.pdf    # Technical report, also linked from the Paper button
 ```
 
 ## Leaderboard Participation
