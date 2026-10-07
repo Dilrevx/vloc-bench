@@ -1,0 +1,280 @@
+{
+  "adapter": "vloc-normalized-v1",
+  "counts": {
+    "cwe_id_description_count_mismatches": 8,
+    "cwe_ids": 147,
+    "fixed_snapshots": 439,
+    "fully_revision_pinned_tasks": 499,
+    "native_ground_truth_file_labels": 2618,
+    "native_snapshot_pairs": 439,
+    "nonempty_advisories": 411,
+    "repositories": 290,
+    "scorer_ground_truth_file_labels": 2618,
+    "tasks": 500,
+    "tasks_missing_advisory": 39,
+    "tasks_requiring_mirror": 1,
+    "tasks_with_empty_cwe_descriptions": 19,
+    "tasks_with_empty_scorer_ground_truth": 0,
+    "unique_cves": 347,
+    "vulnerable_snapshots_with_revision": 437
+  },
+  "known_issues": [
+    {
+      "case_id": "vloc-i6zaOEyo",
+      "issues": [
+        "missing_advisory_id"
+      ]
+    },
+    {
+      "case_id": "vloc-mVAsmgN3",
+      "issues": [
+        "missing_advisory_id"
+      ]
+    },
+    {
+      "case_id": "vloc-4yURmNVW",
+      "issues": [
+        "missing_advisory_id"
+      ]
+    },
+    {
+      "case_id": "vloc-EfavGTgh",
+      "issues": [
+        "missing_advisory_id"
+      ]
+    },
+    {
+      "case_id": "vloc-RGtQdwHZ",
+      "issues": [
+        "missing_advisory_id",
+        "native_cwe_id_description_count_mismatch"
+      ]
+    },
+    {
+      "case_id": "vloc-kGpMThEz",
+      "issues": [
+        "missing_advisory_id",
+        "native_cwe_id_description_count_mismatch"
+      ]
+    },
+    {
+      "case_id": "vloc-FgScW5d7",
+      "issues": [
+        "missing_advisory_id"
+      ]
+    },
+    {
+      "case_id": "vloc-lcRfzsZX",
+      "issues": [
+        "missing_advisory_id"
+      ]
+    },
+    {
+      "case_id": "vloc-zYRZDOgv",
+      "issues": [
+        "missing_advisory_id"
+      ]
+    },
+    {
+      "case_id": "vloc-FpCWXa6y",
+      "issues": [
+        "missing_advisory_id"
+      ]
+    },
+    {
+      "case_id": "vloc-U2DixXsu",
+      "issues": [
+        "missing_advisory_id"
+      ]
+    },
+    {
+      "case_id": "vloc-JefKHOyF",
+      "issues": [
+        "missing_advisory_id",
+        "native_cwe_id_description_count_mismatch"
+      ]
+    },
+    {
+      "case_id": "vloc-WXPCIPdz",
+      "issues": [
+        "missing_advisory_id"
+      ]
+    },
+    {
+      "case_id": "vloc-WmAe3PdP",
+      "issues": [
+        "missing_advisory_id"
+      ]
+    },
+    {
+      "case_id": "vloc-Z6tx7lZt",
+      "issues": [
+        "missing_advisory_id",
+        "native_cwe_id_description_count_mismatch"
+      ]
+    },
+    {
+      "case_id": "vloc-dfE00opH",
+      "issues": [
+        "missing_advisory_id"
+      ]
+    },
+    {
+      "case_id": "vloc-okgFtPaS",
+      "issues": [
+        "missing_advisory_id"
+      ]
+    },
+    {
+      "case_id": "vloc-4ojWXvJ1",
+      "issues": [
+        "missing_advisory_id"
+      ]
+    },
+    {
+      "case_id": "vloc-9aL1aRQj",
+      "issues": [
+        "missing_advisory_id"
+      ]
+    },
+    {
+      "case_id": "vloc-AIdw7Wjn",
+      "issues": [
+        "missing_advisory_id",
+        "native_cwe_id_description_count_mismatch"
+      ]
+    },
+    {
+      "case_id": "vloc-MlA8YvN0",
+      "issues": [
+        "missing_advisory_id"
+      ]
+    },
+    {
+      "case_id": "vloc-P3UtghnA",
+      "issues": [
+        "missing_advisory_id"
+      ]
+    },
+    {
+      "case_id": "vloc-Z8F548Uk",
+      "issues": [
+        "missing_advisory_id"
+      ]
+    },
+    {
+      "case_id": "vloc-bEHSdKg7",
+      "issues": [
+        "missing_advisory_id",
+        "native_cwe_id_description_count_mismatch"
+      ]
+    },
+    {
+      "case_id": "vloc-i54y7bJU",
+      "issues": [
+        "missing_advisory_id"
+      ]
+    },
+    {
+      "case_id": "vloc-io8HbE5h",
+      "issues": [
+        "missing_advisory_id"
+      ]
+    },
+    {
+      "case_id": "vloc-ooEPZagU",
+      "issues": [
+        "missing_advisory_id",
+        "native_cwe_id_description_count_mismatch"
+      ]
+    },
+    {
+      "case_id": "vloc-xWR6nBAC",
+      "issues": [
+        "missing_advisory_id"
+      ]
+    },
+    {
+      "case_id": "vloc-5l4ulMkK",
+      "issues": [
+        "missing_advisory_id"
+      ]
+    },
+    {
+      "case_id": "vloc-7kuHLidA",
+      "issues": [
+        "missing_advisory_id"
+      ]
+    },
+    {
+      "case_id": "vloc-ugZvOYFP",
+      "issues": [
+        "missing_advisory_id"
+      ]
+    },
+    {
+      "case_id": "vloc-Qny1FzqX",
+      "issues": [
+        "missing_advisory_id"
+      ]
+    },
+    {
+      "case_id": "vloc-ngqJezSl",
+      "issues": [
+        "missing_advisory_id"
+      ]
+    },
+    {
+      "case_id": "vloc-qx1EpEUZ",
+      "issues": [
+        "missing_advisory_id",
+        "native_cwe_id_description_count_mismatch"
+      ]
+    },
+    {
+      "case_id": "vloc-9iUQxSLF",
+      "issues": [
+        "missing_advisory_id"
+      ]
+    },
+    {
+      "case_id": "vloc-2xliDaZg",
+      "issues": [
+        "missing_advisory_id"
+      ]
+    },
+    {
+      "case_id": "vloc-cDBHYB7x",
+      "issues": [
+        "missing_advisory_id"
+      ]
+    },
+    {
+      "case_id": "vloc-fTWAV6OH",
+      "issues": [
+        "missing_advisory_id"
+      ]
+    },
+    {
+      "case_id": "vloc-noXV5GI4",
+      "issues": [
+        "missing_advisory_id"
+      ]
+    },
+    {
+      "case_id": "vloc-wyfFZf7k",
+      "issues": [
+        "missing_vulnerable_revision_requires_mirror"
+      ]
+    }
+  ],
+  "schema_version": 1,
+  "scope": "entire_native_manifest_metadata_and_patch_file_labels",
+  "status": {
+    "candidate_pool": "not_built",
+    "evaluation": "not_run",
+    "source_review": "pending",
+    "target_snapshots_acquired": 0,
+    "training": "not_assessed"
+  }
+}

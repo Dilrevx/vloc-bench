@@ -1,0 +1,78 @@
+{
+  "adapter": "vloc-normalized-v1",
+  "files": {
+    "DATASET_CARD.md": {
+      "bytes": 10165,
+      "sha256": "758403e3e624c5ee9bfa33f24bd0e090dd751b11048ad213821ac0727eddf0f0"
+    },
+    "LICENSE": {
+      "bytes": 10767,
+      "sha256": "f84afbda68896bf9f9f1054053c14b33a42dd08c4e74a999d9b820293631d0ac"
+    },
+    "NOTICE": {
+      "bytes": 3948,
+      "sha256": "a848c2a316989919e6f2bee2cb743c7741280228a0cce89e1dc210cb9fd19495"
+    },
+    "README.md": {
+      "bytes": 14464,
+      "sha256": "daf290bed3efa5499304214060cf6ee1feceea517dcc1acdfd54974f1702fb7e"
+    },
+    "configs/default.yaml": {
+      "bytes": 470,
+      "sha256": "7335c3cc7a67c11e8284a312f2c1a1527bdc91378dbe9f6159fbde73053bc2db"
+    },
+    "data/downloader_and_verifier.py": {
+      "bytes": 15197,
+      "sha256": "450e1d1ebae2d25c987d233ac129570becbf304c93a4d0c914c52e8822e4a7c8"
+    },
+    "data/manifest.csv": {
+      "bytes": 1143857,
+      "sha256": "c6b4fad1cee9e529d952e7edb19732a1ebad5d1e6b6285de145458f5730452ba"
+    },
+    "src/vulnerability_localization_benchmark/agent.py": {
+      "bytes": 6726,
+      "sha256": "cafd901a7e0b836ba80d928d0bede18d656ba38765e0b8e5f88ebacf23b93964"
+    },
+    "src/vulnerability_localization_benchmark/cli.py": {
+      "bytes": 8938,
+      "sha256": "99c3a0b64635e7071cef3baff5a8367b03fdc36934a04525a72adbcd166b215c"
+    },
+    "src/vulnerability_localization_benchmark/scoring.py": {
+      "bytes": 2628,
+      "sha256": "0ebc153cbd7479679f53d9651c601e4d133b67ee08cad52fe9e0ff99a879e21d"
+    }
+  },
+  "license": {
+    "license_path": "LICENSE",
+    "notice_path": "NOTICE",
+    "third_party_boundary": "Target source licenses remain as in native manifest and repositories; no blanket relicensing.",
+    "upstream": "Apache-2.0"
+  },
+  "protocol": {
+    "evaluator_only": [
+      "advisory",
+      "CVE",
+      "ground_truth_files",
+      "patch",
+      "paired_revision",
+      "native_manifest_row",
+      "raw_ref"
+    ],
+    "labels": "patch_derived_files_not_function_or_runtime_oracle",
+    "model_called": false,
+    "model_input": "native_generic_cwe_descriptions_and_one_source_snapshot_only",
+    "official_metrics": [
+      "phase_a_file_f1",
+      "phase_b_true_negative_rate"
+    ],
+    "offline_bank_is_separate_protocol": true,
+    "patched_snapshot_is_not_whole_repository_safe": true,
+    "target_code_executed": false,
+    "upstream_code_executed": false
+  },
+  "schema_version": 1,
+  "upstream": {
+    "commit": "fa50b671aa0b954d73691d6ef8d592d42a2ac1e0",
+    "repository": "https://github.com/cisco-foundation-ai/vulnerability-localization-benchmark"
+  }
+}
