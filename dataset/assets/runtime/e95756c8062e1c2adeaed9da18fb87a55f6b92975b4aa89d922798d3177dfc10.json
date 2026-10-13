@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-184: Incomplete List of Disallowed Inputs — The product implements a protection mechanism that relies on a list of inputs (or properties of inputs) that are not allowed by policy or otherwise require other action to neutralize before additional processing takes place, but the list is incomplete."
+  ],
+  "source_request": {
+    "commit": "2a8383cfeb4158567f9770d86597300c9e508d0f",
+    "repository": "https://github.com/mmaitre314/picklescan"
+  }
+}

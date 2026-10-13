@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-404: Improper Resource Shutdown or Release — The product does not release or incorrectly releases a resource before it is made available for re-use.",
+    "CWE-770: Allocation of Resources Without Limits or Throttling — The product allocates a reusable resource or group of resources on behalf of an actor without imposing any intended restrictions on the size or number of resources that can be allocated."
+  ],
+  "source_request": {
+    "commit": "9433b674a2d62f019e5d43bacfb37f778fff5d51",
+    "repository": "https://github.com/undertow-io/undertow"
+  }
+}

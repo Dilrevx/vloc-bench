@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-200: Exposure of Sensitive Information to an Unauthorized Actor — The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information.",
+    "CWE-319: Cleartext Transmission of Sensitive Information — The product transmits sensitive or security-critical data in cleartext in a communication channel that can be sniffed by unauthorized actors."
+  ],
+  "source_request": {
+    "commit": "c5ad71703ea89f216c2604fc56177d06dea69d80",
+    "repository": "https://github.com/weaveworks/weave-gitops"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-409: Improper Handling of Highly Compressed Data (Data Amplification) — The product does not handle or incorrectly handles a compressed input with a very high compression ratio that produces a large output."
+  ],
+  "source_request": {
+    "commit": "b4a0e4f3dbeeec671d7e72e50337626b15197e83",
+    "repository": "https://github.com/mpdavis/python-jose"
+  }
+}

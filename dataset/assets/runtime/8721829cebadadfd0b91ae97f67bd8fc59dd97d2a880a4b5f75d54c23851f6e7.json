@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-400: Uncontrolled Resource Consumption — The product does not properly control the allocation and maintenance of a limited resource."
+  ],
+  "source_request": {
+    "commit": "6a27056f9d7522a8b493216195cb7634bf4b5c42",
+    "repository": "https://github.com/containrrr/shoutrrr"
+  }
+}

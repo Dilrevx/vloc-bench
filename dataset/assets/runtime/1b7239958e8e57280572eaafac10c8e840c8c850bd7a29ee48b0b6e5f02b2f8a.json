@@ -1,0 +1,11 @@
+{
+  "cwe_descriptions": [
+    "CWE-674: Uncontrolled Recursion — The product does not properly control the amount of recursion that takes place, consuming excessive resources, such as allocated memory or the program stack.",
+    "CWE-770: Allocation of Resources Without Limits or Throttling — The product allocates a reusable resource or group of resources on behalf of an actor without imposing any intended restrictions on the size or number of resources that can be allocated.",
+    "CWE-787: Out-of-bounds Write — The product writes data past the end, or before the beginning, of the intended buffer."
+  ],
+  "source_request": {
+    "commit": "aec747e0e09be9415a9de718d9537b3b0bb19ccd",
+    "repository": "https://github.com/rust-bitcoin/rust-miniscript"
+  }
+}

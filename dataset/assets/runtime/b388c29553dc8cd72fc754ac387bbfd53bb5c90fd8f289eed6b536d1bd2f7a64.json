@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-451: User Interface (UI) Misrepresentation of Critical Information — The user interface (UI) does not properly represent critical information to the user, allowing the information - or its source - to be obscured or spoofed. This is often a component in phishing attacks."
+  ],
+  "source_request": {
+    "commit": "d4b29db8c725331581185d3198d6a98ce291d203",
+    "repository": "https://github.com/vercel/next.js"
+  }
+}

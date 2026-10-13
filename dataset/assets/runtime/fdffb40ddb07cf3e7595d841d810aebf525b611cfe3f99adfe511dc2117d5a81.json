@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-787: Out-of-bounds Write — The product writes data past the end, or before the beginning, of the intended buffer."
+  ],
+  "source_request": {
+    "commit": "621274a01226a8a700f6bf9c8cf5a9909567867b",
+    "repository": "https://github.com/gnzlbg/slice_deque"
+  }
+}

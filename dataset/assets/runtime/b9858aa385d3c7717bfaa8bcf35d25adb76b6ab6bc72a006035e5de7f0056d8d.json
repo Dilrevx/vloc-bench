@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') — The product uses external input to construct a pathname that is intended to identify a file or directory that is located underneath a restricted parent directory, but the product does not properly neutralize special elements within the pathname that can cause the pathname to resolve to a location that is outside of the restricted directory."
+  ],
+  "source_request": {
+    "commit": "2adbaa4891b9690853ef10216189189f5ad7dc73",
+    "repository": "https://github.com/yi-ge/unzip"
+  }
+}

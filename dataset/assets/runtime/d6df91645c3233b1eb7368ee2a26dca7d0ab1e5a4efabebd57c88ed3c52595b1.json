@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-843: Access of Resource Using Incompatible Type ('Type Confusion') — The product allocates or initializes a resource such as a pointer, object, or variable using one type, but it later accesses that resource using a type that is incompatible with the original type.",
+    "CWE-1321: Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution') — The product receives input from an upstream component that specifies attributes that are to be initialized or updated in an object, but it does not properly control modifications of attributes of the object prototype."
+  ],
+  "source_request": {
+    "commit": "b67e4026a102fe98ed896b4ad271db3c131a944b",
+    "repository": "https://github.com/janl/node-jsonpointer"
+  }
+}

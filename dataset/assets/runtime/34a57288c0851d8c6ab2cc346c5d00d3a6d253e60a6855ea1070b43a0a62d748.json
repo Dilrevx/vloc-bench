@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-613: Insufficient Session Expiration — According to WASC, Insufficient Session Expiration is when a web site permits an attacker to reuse old session credentials or session IDs for authorization."
+  ],
+  "source_request": {
+    "commit": "12f8138167f8481f66d52775b510457f532b56e4",
+    "repository": "https://github.com/apache/dolphinscheduler"
+  }
+}

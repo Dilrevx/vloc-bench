@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-400: Uncontrolled Resource Consumption — The product does not properly control the allocation and maintenance of a limited resource."
+  ],
+  "source_request": {
+    "commit": "6eba0c2d92c0425bd4043732af229fc0084684c9",
+    "repository": "https://github.com/knative-extensions/eventing-github"
+  }
+}

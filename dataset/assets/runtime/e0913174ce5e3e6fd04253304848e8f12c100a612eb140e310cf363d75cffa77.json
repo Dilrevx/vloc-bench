@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-200: Exposure of Sensitive Information to an Unauthorized Actor — The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information."
+  ],
+  "source_request": {
+    "commit": "9d20dec56a998ce9bdc3b5863fd729e86905d15d",
+    "repository": "https://github.com/minio/minio"
+  }
+}

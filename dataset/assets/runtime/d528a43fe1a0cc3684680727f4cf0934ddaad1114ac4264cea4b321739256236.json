@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') — The product uses external input to construct a pathname that is intended to identify a file or directory that is located underneath a restricted parent directory, but the product does not properly neutralize special elements within the pathname that can cause the pathname to resolve to a location that is outside of the restricted directory.",
+    "CWE-73: External Control of File Name or Path — The product allows user input to control or influence paths or file names that are used in filesystem operations."
+  ],
+  "source_request": {
+    "commit": "ba099e442b602b9414693dab9cfa67e19051037c",
+    "repository": "https://github.com/facebook/react"
+  }
+}

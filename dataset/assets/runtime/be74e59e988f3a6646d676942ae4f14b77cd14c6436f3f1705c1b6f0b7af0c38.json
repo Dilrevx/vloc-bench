@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-248: Uncaught Exception — An exception is thrown from a function, but it is not caught."
+  ],
+  "source_request": {
+    "commit": "8bce4d7789b2be654d6b96738403ec721da0ae2a",
+    "repository": "https://github.com/surrealdb/surrealdb"
+  }
+}

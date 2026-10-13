@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-269: Improper Privilege Management — The product does not properly assign, modify, track, or check privileges for an actor, creating an unintended sphere of control for that actor."
+  ],
+  "source_request": {
+    "commit": "325966299e9f7f5587d099643fb827fa4e15c0ab",
+    "repository": "https://github.com/canonical/lxd"
+  }
+}

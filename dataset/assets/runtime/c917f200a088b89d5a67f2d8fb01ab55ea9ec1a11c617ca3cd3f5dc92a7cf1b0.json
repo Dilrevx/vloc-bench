@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-200: Exposure of Sensitive Information to an Unauthorized Actor — The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information."
+  ],
+  "source_request": {
+    "commit": "560bd227b90f74417ffaedebf5f8d05a8ee4f532",
+    "repository": "https://github.com/urllib3/urllib3"
+  }
+}

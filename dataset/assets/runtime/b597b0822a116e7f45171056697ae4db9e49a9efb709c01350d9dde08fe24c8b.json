@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-295: Improper Certificate Validation — The product does not validate, or incorrectly validates, a certificate.",
+    "CWE-787: Out-of-bounds Write — The product writes data past the end, or before the beginning, of the intended buffer."
+  ],
+  "source_request": {
+    "commit": "a8db4e009ef217484598ba1fd1c595b54e0f6422",
+    "repository": "https://github.com/cloudflare/cfrpki"
+  }
+}

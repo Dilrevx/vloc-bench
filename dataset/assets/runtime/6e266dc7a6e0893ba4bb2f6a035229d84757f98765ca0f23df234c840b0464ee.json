@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-770: Allocation of Resources Without Limits or Throttling — The product allocates a reusable resource or group of resources on behalf of an actor without imposing any intended restrictions on the size or number of resources that can be allocated.\n\nCWE-789: Memory Allocation with Excessive Size Value — The product allocates memory based on an untrusted, large size value, but it does not ensure that the size is within expected limits, allowing arbitrary amounts of memory to be allocated."
+  ],
+  "source_request": {
+    "commit": "0f13c5c3d1cdbb983c3e3d7a1b2a1ef803d24fcb",
+    "repository": "https://github.com/kubernetes/kubernetes"
+  }
+}

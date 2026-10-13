@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-522: Insufficiently Protected Credentials — The product transmits or stores authentication credentials, but it uses an insecure method that is susceptible to unauthorized interception and/or retrieval."
+  ],
+  "source_request": {
+    "commit": "da95c0724931c1ec3a41eedcb3017804c62e09d4",
+    "repository": "https://github.com/microsoft/typed-rest-client"
+  }
+}

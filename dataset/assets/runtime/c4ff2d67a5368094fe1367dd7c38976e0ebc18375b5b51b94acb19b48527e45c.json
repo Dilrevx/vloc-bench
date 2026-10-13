@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-1333: Inefficient Regular Expression Complexity — The product uses a regular expression with an inefficient, possibly exponential worst-case computational complexity that consumes excessive CPU cycles."
+  ],
+  "source_request": {
+    "commit": "2f738e9a70d9b9468b7b69e9ed3e12418725c650",
+    "repository": "https://github.com/npm/node-semver"
+  }
+}

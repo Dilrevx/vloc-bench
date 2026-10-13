@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-611: Improper Restriction of XML External Entity Reference — The product processes an XML document that can contain XML entities with URIs that resolve to documents outside of the intended sphere of control, causing the product to embed incorrect documents into its output."
+  ],
+  "source_request": {
+    "commit": "382e7d9081fd45d40ecb0dd177b0d0064e920221",
+    "repository": "https://github.com/apache/tika"
+  }
+}

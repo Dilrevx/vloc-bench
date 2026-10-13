@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-20: Improper Input Validation — The product receives input or data, but it does not validate or incorrectly validates that the input has the properties that are required to process the data safely and correctly.",
+    "CWE-1336: Improper Neutralization of Special Elements Used in a Template Engine — The product uses a template engine to insert or process externally-influenced input, but it does not neutralize or incorrectly neutralizes special elements or syntax that can be interpreted as template expressions or other code directives when processed by the engine."
+  ],
+  "source_request": {
+    "commit": "b7816d7a038076c8823ae27929e560f655e34e79",
+    "repository": "https://github.com/openshift/must-gather-operator"
+  }
+}

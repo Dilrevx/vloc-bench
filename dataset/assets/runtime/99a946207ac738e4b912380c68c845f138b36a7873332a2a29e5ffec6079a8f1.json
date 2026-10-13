@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-770: Allocation of Resources Without Limits or Throttling — The product allocates a reusable resource or group of resources on behalf of an actor without imposing any intended restrictions on the size or number of resources that can be allocated."
+  ],
+  "source_request": {
+    "commit": "0656585ba94cd6bfb2ef34cd433f99212f43fe57",
+    "repository": "https://github.com/undertow-io/undertow"
+  }
+}

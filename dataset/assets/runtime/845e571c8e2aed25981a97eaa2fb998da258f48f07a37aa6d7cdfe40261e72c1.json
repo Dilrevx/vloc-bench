@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-400: Uncontrolled Resource Consumption — The product does not properly control the allocation and maintenance of a limited resource."
+  ],
+  "source_request": {
+    "commit": "65351c27657d58960c2e6c9fbb2b00f818e50568",
+    "repository": "https://github.com/go-jose/go-jose"
+  }
+}

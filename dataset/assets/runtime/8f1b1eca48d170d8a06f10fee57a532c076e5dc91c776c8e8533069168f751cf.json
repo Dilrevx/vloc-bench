@@ -1,0 +1,11 @@
+{
+  "cwe_descriptions": [
+    "CWE-285: Improper Authorization — The product does not perform or incorrectly performs an authorization check when an actor attempts to access a resource or perform an action.",
+    "CWE-862: Missing Authorization — The product does not perform an authorization check when an actor attempts to access a resource or perform an action.",
+    "CWE-863: Incorrect Authorization — The product performs an authorization check when an actor attempts to access a resource or perform an action, but it does not correctly perform the check."
+  ],
+  "source_request": {
+    "commit": "cb4352918b8ecace9fe969b90404d337b0744d46",
+    "repository": "https://github.com/go-vela/server"
+  }
+}

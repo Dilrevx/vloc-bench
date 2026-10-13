@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-116: Improper Encoding or Escaping of Output — The product prepares a structured message for communication with another component, but encoding or escaping of the data is either missing or done incorrectly. As a result, the intended structure of the message is not preserved.",
+    "CWE-285: Improper Authorization — The product does not perform or incorrectly performs an authorization check when an actor attempts to access a resource or perform an action."
+  ],
+  "source_request": {
+    "commit": "09285d5a7f1c08bec09f44cec3d0518a603597fc",
+    "repository": "https://github.com/facebook/react"
+  }
+}

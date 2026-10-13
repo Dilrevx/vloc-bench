@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-235: Improper Handling of Extra Parameters — The product does not handle or incorrectly handles when the number of parameters, fields, or arguments with the same name exceeds the expected amount."
+  ],
+  "source_request": {
+    "commit": "9227f235fda6aa729351bbe348cc05b1d0306ddb",
+    "repository": "https://github.com/flitto/express-param"
+  }
+}

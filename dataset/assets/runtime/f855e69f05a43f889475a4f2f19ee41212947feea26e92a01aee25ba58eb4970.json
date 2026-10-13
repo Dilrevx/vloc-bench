@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-668: Exposure of Resource to Wrong Sphere — The product exposes a resource to the wrong control sphere, providing unintended actors with inappropriate access to the resource."
+  ],
+  "source_request": {
+    "commit": "cd02218e27c6c5f656e532328bde4e7a5b32552f",
+    "repository": "https://github.com/apache/inlong"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-667: Improper Locking — The product does not properly acquire or release a lock on a resource, leading to unexpected resource state changes and behaviors.",
+    "CWE-833: Deadlock — The product contains multiple threads or executable segments that are waiting for each other to release a necessary lock, resulting in deadlock."
+  ],
+  "source_request": {
+    "commit": "bb6e69acc3158f0acf16f23637f053d63d226e5b",
+    "repository": "https://github.com/vyperlang/vyper"
+  }
+}

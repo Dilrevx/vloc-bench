@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-287: Improper Authentication — When an actor claims to have a given identity, the product does not prove or insufficiently proves that the claim is correct.",
+    "CWE-295: Improper Certificate Validation — The product does not validate, or incorrectly validates, a certificate."
+  ],
+  "source_request": {
+    "commit": "b70af780e8ded98f2549fa64c2d20428887d3051",
+    "repository": "https://github.com/canonical/lxd"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-190: Integer Overflow or Wraparound — The product performs a calculation that can produce an integer overflow or wraparound when the logic assumes that the resulting value will always be larger than the original value. This occurs when an integer value is incremented to a value that is too large to store in the associated representation. When this occurs, the value may become a very small or negative number.",
+    "CWE-400: Uncontrolled Resource Consumption — The product does not properly control the allocation and maintenance of a limited resource."
+  ],
+  "source_request": {
+    "commit": "0ec3d1bd7fe50c503d6df98ee649d81f4857c564",
+    "repository": "https://github.com/gorilla/websocket"
+  }
+}

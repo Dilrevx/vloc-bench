@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-20: Improper Input Validation — The product receives input or data, but it does not validate or incorrectly validates that the input has the properties that are required to process the data safely and correctly.",
+    "CWE-834: Excessive Iteration — The product performs an iteration or loop without sufficiently limiting the number of times that the loop is executed."
+  ],
+  "source_request": {
+    "commit": "82f3f1a4a37f0a72b7ec2404f3f1f8ef92efd6f4",
+    "repository": "https://github.com/eclipse-ee4j/parsson"
+  }
+}

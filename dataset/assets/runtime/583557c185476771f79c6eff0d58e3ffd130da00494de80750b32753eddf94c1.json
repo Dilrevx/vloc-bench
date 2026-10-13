@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-15: External Control of System or Configuration Setting — One or more system settings or configuration elements can be externally controlled by a user.",
+    "CWE-20: Improper Input Validation — The product receives input or data, but it does not validate or incorrectly validates that the input has the properties that are required to process the data safely and correctly."
+  ],
+  "source_request": {
+    "commit": "cfe3923bd657a82226eb58d3307204a8a8802db4",
+    "repository": "https://github.com/kubernetes/ingress-nginx"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-327: Use of a Broken or Risky Cryptographic Algorithm — The product uses a broken or risky cryptographic algorithm or protocol.",
+    "CWE-347: Improper Verification of Cryptographic Signature — The product does not verify, or incorrectly verifies, the cryptographic signature for data."
+  ],
+  "source_request": {
+    "commit": "75bd2fe7692e918bf1b45cb3166aabfe25fc11ce",
+    "repository": "https://github.com/free5gc/udm"
+  }
+}

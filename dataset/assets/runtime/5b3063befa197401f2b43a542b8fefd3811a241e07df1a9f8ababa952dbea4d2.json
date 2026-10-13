@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-121: Stack-based Buffer Overflow — A stack-based buffer overflow condition is a condition where the buffer being overwritten is allocated on the stack (i.e., is a local variable or, rarely, a parameter to a function)."
+  ],
+  "source_request": {
+    "commit": "54f78a9cff5e3bace1cf8042ac1b4c3785dc9f5e",
+    "repository": "https://github.com/FasterXML/jackson-core"
+  }
+}

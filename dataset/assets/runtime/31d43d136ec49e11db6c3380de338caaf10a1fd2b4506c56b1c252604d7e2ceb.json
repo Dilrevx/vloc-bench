@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-287: Improper Authentication — When an actor claims to have a given identity, the product does not prove or insufficiently proves that the claim is correct.",
+    "CWE-1390: Weak Authentication — The product uses an authentication mechanism to restrict access to specific users or identities, but the mechanism does not sufficiently prove that the claimed identity is correct."
+  ],
+  "source_request": {
+    "commit": "24b7d06fd5ce5468caa3eaa93688879fb2900fda",
+    "repository": "https://github.com/eclipse/jetty.project"
+  }
+}

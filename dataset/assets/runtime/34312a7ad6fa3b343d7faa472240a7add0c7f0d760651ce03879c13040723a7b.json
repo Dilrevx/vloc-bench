@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-434: Unrestricted Upload of File with Dangerous Type — The product allows the upload or transfer of dangerous file types that are automatically processed within its environment.",
+    "CWE-669: Incorrect Resource Transfer Between Spheres — The product does not properly transfer a resource/behavior to another sphere, or improperly imports a resource/behavior from another sphere, in a manner that provides unintended control over that resource."
+  ],
+  "source_request": {
+    "commit": "37cea84f775129ad715b9bcd617251c831fcc980",
+    "repository": "https://github.com/ytdl-org/youtube-dl"
+  }
+}

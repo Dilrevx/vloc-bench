@@ -1,0 +1,7 @@
+{
+  "cwe_descriptions": [],
+  "source_request": {
+    "commit": "afaf31aeebc06a5fc451ec31e9ec77742f0e83bb",
+    "repository": "https://github.com/grpc/grpc-go"
+  }
+}

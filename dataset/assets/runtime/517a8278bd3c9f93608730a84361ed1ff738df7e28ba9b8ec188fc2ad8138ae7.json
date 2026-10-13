@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-682: Incorrect Calculation — The product performs a calculation that generates incorrect or unintended results that are later used in security-critical decisions or resource management."
+  ],
+  "source_request": {
+    "commit": "87c0ba92136a75db0ab2aba1046d4a9860375d6a",
+    "repository": "https://github.com/ethereum/go-ethereum"
+  }
+}

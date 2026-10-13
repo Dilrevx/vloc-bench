@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-347: Improper Verification of Cryptographic Signature — The product does not verify, or incorrectly verifies, the cryptographic signature for data."
+  ],
+  "source_request": {
+    "commit": "5a0d31719e2af188225cee2ff26e81938e1f43d9",
+    "repository": "https://github.com/node-saml/xml-crypto"
+  }
+}

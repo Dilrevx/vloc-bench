@@ -1,0 +1,7 @@
+{
+  "cwe_descriptions": [],
+  "source_request": {
+    "commit": "2a6ca2d4e64d18dd6e8fbb4e48e22c2510118505",
+    "repository": "https://github.com/kudelskisecurity/crystals-go"
+  }
+}

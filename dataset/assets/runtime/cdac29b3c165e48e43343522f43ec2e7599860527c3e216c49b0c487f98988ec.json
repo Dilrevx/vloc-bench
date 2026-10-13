@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-283: Unverified Ownership — The product does not properly verify that a critical resource is owned by the proper entity."
+  ],
+  "source_request": {
+    "commit": "927cc48fdfc23cb1415918ab0f07e9bec1933bd8",
+    "repository": "https://github.com/kubernetes/kubernetes"
+  }
+}

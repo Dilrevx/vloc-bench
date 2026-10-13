@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-200: Exposure of Sensitive Information to an Unauthorized Actor — The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information.",
+    "CWE-532: Insertion of Sensitive Information into Log File — The product writes sensitive information to a log file."
+  ],
+  "source_request": {
+    "commit": "d7c29f46378379fb596e4d1e59d1a3c41063db5b",
+    "repository": "https://github.com/apache/nifi"
+  }
+}

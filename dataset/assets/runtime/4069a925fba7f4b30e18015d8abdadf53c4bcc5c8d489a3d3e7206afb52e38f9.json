@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-184: Incomplete List of Disallowed Inputs — The product implements a protection mechanism that relies on a list of inputs (or properties of inputs) that are not allowed by policy or otherwise require other action to neutralize before additional processing takes place, but the list is incomplete.",
+    "CWE-502: Deserialization of Untrusted Data — The product deserializes untrusted data without sufficiently ensuring that the resulting data will be valid."
+  ],
+  "source_request": {
+    "commit": "1e4c27f2557fbb0114d58eeaa2bbeaba5fc56ac1",
+    "repository": "https://github.com/trailofbits/fickling"
+  }
+}

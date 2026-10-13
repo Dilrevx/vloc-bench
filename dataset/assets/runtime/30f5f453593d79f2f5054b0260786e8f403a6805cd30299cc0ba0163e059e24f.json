@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-347: Improper Verification of Cryptographic Signature — The product does not verify, or incorrectly verifies, the cryptographic signature for data."
+  ],
+  "source_request": {
+    "commit": "256406d5ef43629875efa20f702319b73ed8bfe8",
+    "repository": "https://github.com/bitcoinjs/tiny-secp256k1"
+  }
+}

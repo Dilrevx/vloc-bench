@@ -1,0 +1,7 @@
+{
+  "cwe_descriptions": [],
+  "source_request": {
+    "commit": "57bf987f053e4cba91f9e449a434bf5eaebce2cc",
+    "repository": "https://github.com/Alexhuszagh/fast-float-rust"
+  }
+}

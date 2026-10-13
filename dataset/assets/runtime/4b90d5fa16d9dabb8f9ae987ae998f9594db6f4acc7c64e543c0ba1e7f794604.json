@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-1321: Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution') — The product receives input from an upstream component that specifies attributes that are to be initialized or updated in an object, but it does not properly control modifications of attributes of the object prototype."
+  ],
+  "source_request": {
+    "commit": "f55b858811f10b329b3ed0532f100813c11c8281",
+    "repository": "https://github.com/mattphillips/deep-object-diff"
+  }
+}

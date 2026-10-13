@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-693: Protection Mechanism Failure — The product does not use or incorrectly uses a protection mechanism that provides sufficient defense against directed attacks against the product."
+  ],
+  "source_request": {
+    "commit": "70c1c6c31beb6baaf52c8db1b6c3c0e84a6f9dab",
+    "repository": "https://github.com/mmaitre314/picklescan"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-73: External Control of File Name or Path — The product allows user input to control or influence paths or file names that are used in filesystem operations."
+  ],
+  "source_request": {
+    "commit": "dea4964ba7901848b33e37b4f8e00b22f0fd54fe",
+    "repository": "https://github.com/PebbleTemplates/pebble"
+  }
+}

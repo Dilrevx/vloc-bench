@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-611: Improper Restriction of XML External Entity Reference — The product processes an XML document that can contain XML entities with URIs that resolve to documents outside of the intended sphere of control, causing the product to embed incorrect documents into its output."
+  ],
+  "source_request": {
+    "commit": "9f346e92fb038c74efbb41477d083faf8e8fe4ee",
+    "repository": "https://github.com/diffplug/spotless"
+  }
+}

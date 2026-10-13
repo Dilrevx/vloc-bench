@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-670: Always-Incorrect Control Flow Implementation — The code contains a control flow path that does not reflect the algorithm that the path is intended to implement, leading to incorrect behavior any time this path is navigated."
+  ],
+  "source_request": {
+    "commit": "78fa8dd8f91ba0cb26277eeffb585c68c83e7daa",
+    "repository": "https://github.com/vyperlang/vyper"
+  }
+}

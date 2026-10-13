@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-601: URL Redirection to Untrusted Site ('Open Redirect') — The web application accepts a user-controlled input that specifies a link to an external site, and uses that link in a redirect."
+  ],
+  "source_request": {
+    "commit": "0412e281c13d712cef2de065f820dd083f6925b0",
+    "repository": "https://github.com/AndrewBurian/powermux"
+  }
+}

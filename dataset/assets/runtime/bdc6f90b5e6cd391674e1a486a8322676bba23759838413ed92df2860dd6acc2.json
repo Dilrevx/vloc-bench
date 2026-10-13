@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-476: NULL Pointer Dereference — The product dereferences a pointer that it expects to be valid but is NULL."
+  ],
+  "source_request": {
+    "commit": "cbad96100fbd3e8cb992f20d2aefca78b4f46ad3",
+    "repository": "https://github.com/nats-io/jwt"
+  }
+}

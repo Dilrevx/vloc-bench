@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-400: Uncontrolled Resource Consumption — The product does not properly control the allocation and maintenance of a limited resource."
+  ],
+  "source_request": {
+    "commit": "312c4f8fe100157f237fa43f4a2834653b41c256",
+    "repository": "https://github.com/tendermint/tendermint"
+  }
+}

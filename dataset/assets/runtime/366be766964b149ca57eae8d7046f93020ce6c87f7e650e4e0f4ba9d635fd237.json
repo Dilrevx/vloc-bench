@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-20: Improper Input Validation — The product receives input or data, but it does not validate or incorrectly validates that the input has the properties that are required to process the data safely and correctly."
+  ],
+  "source_request": {
+    "commit": "ff00e0897af8f12db5ade0d5fa896616176a32b8",
+    "repository": "https://github.com/cortexproject/cortex"
+  }
+}

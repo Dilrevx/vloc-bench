@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-770: Allocation of Resources Without Limits or Throttling — The product allocates a reusable resource or group of resources on behalf of an actor without imposing any intended restrictions on the size or number of resources that can be allocated."
+  ],
+  "source_request": {
+    "commit": "3dbda4bd9c2531a05fe0ea77a4bf4d7f294dc1da",
+    "repository": "https://github.com/expr-lang/expr"
+  }
+}

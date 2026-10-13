@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-682: Incorrect Calculation — The product performs a calculation that generates incorrect or unintended results that are later used in security-critical decisions or resource management."
+  ],
+  "source_request": {
+    "commit": "b5e7139a1140bcc6a3b0f38175d8dc2520797558",
+    "repository": "https://github.com/open-policy-agent/opa"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-913: Improper Control of Dynamically-Managed Code Resources — The product does not properly restrict reading from or writing to dynamically-managed code resources such as variables, objects, classes, attributes, functions, or executable instructions or statements."
+  ],
+  "source_request": {
+    "commit": "8be434aaadfcb14270657980f7ffffa0ebca420b",
+    "repository": "https://github.com/traefik/traefik"
+  }
+}

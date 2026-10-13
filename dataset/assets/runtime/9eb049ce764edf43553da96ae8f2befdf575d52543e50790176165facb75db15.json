@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-209: Generation of Error Message Containing Sensitive Information — The product generates an error message that includes sensitive information about its environment, users, or associated data.",
+    "CWE-522: Insufficiently Protected Credentials — The product transmits or stores authentication credentials, but it uses an insecure method that is susceptible to unauthorized interception and/or retrieval."
+  ],
+  "source_request": {
+    "commit": "7d4255b2a15a487e937122bf942bd99fa4b564c7",
+    "repository": "https://github.com/keycloak/keycloak"
+  }
+}

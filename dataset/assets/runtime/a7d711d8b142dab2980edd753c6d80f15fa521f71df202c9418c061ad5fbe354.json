@@ -1,0 +1,11 @@
+{
+  "cwe_descriptions": [
+    "CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer — The product performs operations on a memory buffer, but it reads from or writes to a memory location outside the buffer's intended boundary. This may result in read or write operations on unexpected memory locations that could be linked to other variables, data structures, or internal program data.",
+    "CWE-400: Uncontrolled Resource Consumption — The product does not properly control the allocation and maintenance of a limited resource.",
+    "CWE-770: Allocation of Resources Without Limits or Throttling — The product allocates a reusable resource or group of resources on behalf of an actor without imposing any intended restrictions on the size or number of resources that can be allocated."
+  ],
+  "source_request": {
+    "commit": "1543218d3e7afcb33a90b728b14370395a3deca0",
+    "repository": "https://github.com/netty/netty"
+  }
+}

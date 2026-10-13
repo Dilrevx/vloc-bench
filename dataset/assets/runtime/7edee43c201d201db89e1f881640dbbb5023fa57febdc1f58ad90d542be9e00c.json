@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-200: Exposure of Sensitive Information to an Unauthorized Actor — The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information.",
+    "CWE-312: Cleartext Storage of Sensitive Information — The product stores sensitive information in cleartext within a resource that might be accessible to another control sphere."
+  ],
+  "source_request": {
+    "commit": "581ed18ff9d6b3761d851620ed88a3994a351a0d",
+    "repository": "https://github.com/h2database/h2database"
+  }
+}

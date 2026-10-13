@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-427: Uncontrolled Search Path Element — The product uses a fixed or controlled search path to find resources, but one or more locations in that path can be under the control of unintended actors."
+  ],
+  "source_request": {
+    "commit": "0f01444543cf5e755b13a62c233a5c9feef72888",
+    "repository": "https://github.com/keycloak/keycloak"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-611: Improper Restriction of XML External Entity Reference — The product processes an XML document that can contain XML entities with URIs that resolve to documents outside of the intended sphere of control, causing the product to embed incorrect documents into its output."
+  ],
+  "source_request": {
+    "commit": "fca4363f6475c49083b8cb97c7e479b328bc42eb",
+    "repository": "https://github.com/eXist-db/exist"
+  }
+}

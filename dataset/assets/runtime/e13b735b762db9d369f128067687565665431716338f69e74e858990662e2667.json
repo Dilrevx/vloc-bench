@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-1321: Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution') — The product receives input from an upstream component that specifies attributes that are to be initialized or updated in an object, but it does not properly control modifications of attributes of the object prototype."
+  ],
+  "source_request": {
+    "commit": "2c6689e2aa29f4b66a4874a2f3003431e9db48d1",
+    "repository": "https://github.com/bpmn-io/min-dash"
+  }
+}

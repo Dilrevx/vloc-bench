@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-20: Improper Input Validation — The product receives input or data, but it does not validate or incorrectly validates that the input has the properties that are required to process the data safely and correctly.",
+    "CWE-400: Uncontrolled Resource Consumption — The product does not properly control the allocation and maintenance of a limited resource."
+  ],
+  "source_request": {
+    "commit": "b096916f4dd1e69cafd69a75de09d2a50658f0df",
+    "repository": "https://github.com/hyperledger/fabric"
+  }
+}

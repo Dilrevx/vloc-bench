@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-532: Insertion of Sensitive Information into Log File — The product writes sensitive information to a log file."
+  ],
+  "source_request": {
+    "commit": "15e4cf4c79009c7edcc2697a6e2831360be6813e",
+    "repository": "https://github.com/kubernetes/kubernetes"
+  }
+}

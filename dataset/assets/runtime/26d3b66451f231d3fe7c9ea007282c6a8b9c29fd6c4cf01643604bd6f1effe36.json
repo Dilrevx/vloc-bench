@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-284: Improper Access Control — The product does not restrict or incorrectly restricts access to a resource from an unauthorized actor."
+  ],
+  "source_request": {
+    "commit": "5ba846620f9dbf49301dabb0d40cc980aabef4e0",
+    "repository": "https://github.com/openshift/hive"
+  }
+}

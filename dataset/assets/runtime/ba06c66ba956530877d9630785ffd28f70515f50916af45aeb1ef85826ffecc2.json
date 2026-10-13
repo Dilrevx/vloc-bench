@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-502: Deserialization of Untrusted Data — The product deserializes untrusted data without sufficiently ensuring that the resulting data will be valid."
+  ],
+  "source_request": {
+    "commit": "b0292af34a06a6f84a0433aa80f1cc589d7e101a",
+    "repository": "https://github.com/mmaitre314/picklescan"
+  }
+}

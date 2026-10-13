@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-862: Missing Authorization — The product does not perform an authorization check when an actor attempts to access a resource or perform an action."
+  ],
+  "source_request": {
+    "commit": "5fa7ac68c0e4251c93056d9982db5e794e04ebfa",
+    "repository": "https://github.com/undertow-io/undertow"
+  }
+}

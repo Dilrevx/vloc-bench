@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-400: Uncontrolled Resource Consumption — The product does not properly control the allocation and maintenance of a limited resource."
+  ],
+  "source_request": {
+    "commit": "7293251c438e3ee968970f7609f1a27f9007bccd",
+    "repository": "https://github.com/markedjs/marked"
+  }
+}

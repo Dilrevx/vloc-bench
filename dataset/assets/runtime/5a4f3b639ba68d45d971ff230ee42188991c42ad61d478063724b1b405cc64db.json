@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-400: Uncontrolled Resource Consumption — The product does not properly control the allocation and maintenance of a limited resource.",
+    "CWE-772: Missing Release of Resource after Effective Lifetime — The product does not release a resource after its effective lifetime has ended, i.e., after the resource is no longer needed."
+  ],
+  "source_request": {
+    "commit": "f49068da03c5192500673265d4d7300870d81dee",
+    "repository": "https://github.com/eclipse-vertx/vert.x"
+  }
+}

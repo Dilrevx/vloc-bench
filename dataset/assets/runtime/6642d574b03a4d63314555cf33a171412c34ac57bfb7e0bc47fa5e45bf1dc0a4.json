@@ -1,0 +1,7 @@
+{
+  "cwe_descriptions": [],
+  "source_request": {
+    "commit": "68943415e950190ee33bddfa205e42186da87802",
+    "repository": "https://github.com/cyphar/filepath-securejoin"
+  }
+}

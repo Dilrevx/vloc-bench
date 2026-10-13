@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-415: Double Free — The product calls free() twice on the same memory address."
+  ],
+  "source_request": {
+    "commit": "596df785c0e6f00b1775bba1b5506d998fb94b63",
+    "repository": "https://github.com/crossbeam-rs/crossbeam"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-20: Improper Input Validation — The product receives input or data, but it does not validate or incorrectly validates that the input has the properties that are required to process the data safely and correctly.",
+    "CWE-862: Missing Authorization — The product does not perform an authorization check when an actor attempts to access a resource or perform an action."
+  ],
+  "source_request": {
+    "commit": "a4f12aa4dd3e5aaf99267b58867defacbf457c04",
+    "repository": "https://github.com/PebbleTemplates/pebble"
+  }
+}

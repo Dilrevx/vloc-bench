@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-754: Improper Check for Unusual or Exceptional Conditions — The product does not check or incorrectly checks for unusual or exceptional conditions that are not expected to occur frequently during day to day operation of the product."
+  ],
+  "source_request": {
+    "commit": "696fa753c5366afbd21859c294c64c9ff2b359ab",
+    "repository": "https://github.com/axios/axios"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') — The product does not neutralize or incorrectly neutralizes user-controllable input before it is placed in output that is used as a web page that is served to other users."
+  ],
+  "source_request": {
+    "commit": "abff5b19dd72137438bdc6442e75a78384c5af74",
+    "repository": "https://github.com/braintree/sanitize-url"
+  }
+}

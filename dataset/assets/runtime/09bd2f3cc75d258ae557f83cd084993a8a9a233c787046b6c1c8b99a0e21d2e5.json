@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-347: Improper Verification of Cryptographic Signature — The product does not verify, or incorrectly verifies, the cryptographic signature for data."
+  ],
+  "source_request": {
+    "commit": "a6ce830b6c0c3e6e0bfe5d4932c8d590d2d62045",
+    "repository": "https://github.com/moov-io/signedxml"
+  }
+}

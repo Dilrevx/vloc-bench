@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-20: Improper Input Validation — The product receives input or data, but it does not validate or incorrectly validates that the input has the properties that are required to process the data safely and correctly."
+  ],
+  "source_request": {
+    "commit": "2e61edfb3b920575ef5c878852e662f25d104160",
+    "repository": "https://github.com/snapcore/snapd"
+  }
+}

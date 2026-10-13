@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-287: Improper Authentication — When an actor claims to have a given identity, the product does not prove or insufficiently proves that the claim is correct.",
+    "CWE-295: Improper Certificate Validation — The product does not validate, or incorrectly validates, a certificate."
+  ],
+  "source_request": {
+    "commit": "295ed76a1a54e0695f4fd7bc0c6fd46a51609d72",
+    "repository": "https://github.com/containous/traefik"
+  }
+}

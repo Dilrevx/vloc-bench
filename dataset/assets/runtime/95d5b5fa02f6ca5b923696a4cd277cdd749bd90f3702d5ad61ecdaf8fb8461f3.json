@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-400: Uncontrolled Resource Consumption — The product does not properly control the allocation and maintenance of a limited resource."
+  ],
+  "source_request": {
+    "commit": "bdf04275a2ab44c0d73f1f5d4bd5f0ff42b9a4bd",
+    "repository": "https://github.com/Khan/simple-markdown"
+  }
+}

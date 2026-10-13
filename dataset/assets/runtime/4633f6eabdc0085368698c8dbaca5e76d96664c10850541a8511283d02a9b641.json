@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-36: Absolute Path Traversal — The product uses external input to construct a pathname that should be within a restricted directory, but it does not properly neutralize absolute path sequences such as /abs/path that can resolve to a location that is outside of that directory."
+  ],
+  "source_request": {
+    "commit": "09f618c41f23350323a78191a7a2932889ba5d8a",
+    "repository": "https://github.com/mjmlio/mjml"
+  }
+}

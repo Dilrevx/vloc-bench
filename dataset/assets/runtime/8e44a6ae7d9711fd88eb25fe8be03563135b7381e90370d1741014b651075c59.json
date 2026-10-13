@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-755: Improper Handling of Exceptional Conditions — The product does not handle or incorrectly handles an exceptional condition.",
+    "CWE-862: Missing Authorization — The product does not perform an authorization check when an actor attempts to access a resource or perform an action."
+  ],
+  "source_request": {
+    "commit": "ebb4c47a36095562930a2c8e85cf0861da153c27",
+    "repository": "https://github.com/cilium/cilium"
+  }
+}

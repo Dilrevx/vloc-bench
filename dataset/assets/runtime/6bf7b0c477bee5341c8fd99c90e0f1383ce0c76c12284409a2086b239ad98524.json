@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-409: Improper Handling of Highly Compressed Data (Data Amplification) — The product does not handle or incorrectly handles a compressed input with a very high compression ratio that produces a large output."
+  ],
+  "source_request": {
+    "commit": "67f0b233ffc01332f7d993f79490fbea5f4455f1",
+    "repository": "https://github.com/getkin/kin-openapi"
+  }
+}

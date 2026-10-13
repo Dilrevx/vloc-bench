@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-470: Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection') — The product uses external input with reflection to select which classes or code to use, but it does not sufficiently prevent the input from selecting improper classes or code."
+  ],
+  "source_request": {
+    "commit": "5012cc86990781e72c89712c5538eba3dfbe4268",
+    "repository": "https://github.com/yiisoft/yii2"
+  }
+}

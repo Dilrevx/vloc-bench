@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-250: Execution with Unnecessary Privileges — The product performs an operation at a privilege level that is higher than the minimum level required, which creates new weaknesses or amplifies the consequences of other weaknesses."
+  ],
+  "source_request": {
+    "commit": "174f43fd27a8f2298080e3581c25f6c40f1eeb2b",
+    "repository": "https://github.com/submariner-io/submariner-operator"
+  }
+}

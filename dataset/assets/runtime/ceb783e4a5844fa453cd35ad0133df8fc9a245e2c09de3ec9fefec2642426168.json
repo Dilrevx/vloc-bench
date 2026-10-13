@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') — The product uses external input to construct a pathname that is intended to identify a file or directory that is located underneath a restricted parent directory, but the product does not properly neutralize special elements within the pathname that can cause the pathname to resolve to a location that is outside of the restricted directory.",
+    "CWE-177: Improper Handling of URL Encoding (Hex Encoding) — The product does not properly handle when all or part of an input has been URL encoded."
+  ],
+  "source_request": {
+    "commit": "30cc16e648d13b51e807dcff54e85bcc2b8b9fc3",
+    "repository": "https://github.com/keycloak/keycloak"
+  }
+}

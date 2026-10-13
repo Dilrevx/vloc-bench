@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-20: Improper Input Validation — The product receives input or data, but it does not validate or incorrectly validates that the input has the properties that are required to process the data safely and correctly."
+  ],
+  "source_request": {
+    "commit": "a11ab1e51476d8c4e0ab3b26158dd5e5ae5d1bcc",
+    "repository": "https://github.com/kubernetes/kubernetes"
+  }
+}

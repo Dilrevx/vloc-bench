@@ -1,0 +1,11 @@
+{
+  "cwe_descriptions": [
+    "CWE-74: Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection') — The product constructs all or part of a command, data structure, or record using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify how it is parsed or interpreted when it is sent to a downstream component.",
+    "CWE-90: Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection') — The product constructs all or part of an LDAP query using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended LDAP query when it is sent to a downstream component.",
+    "CWE-116: Improper Encoding or Escaping of Output — The product prepares a structured message for communication with another component, but encoding or escaping of the data is either missing or done incorrectly. As a result, the intended structure of the message is not preserved."
+  ],
+  "source_request": {
+    "commit": "792bc4bce0afa3cf6f0a9a130df7f42a1b7b3f4b",
+    "repository": "https://github.com/github/codeql-go"
+  }
+}

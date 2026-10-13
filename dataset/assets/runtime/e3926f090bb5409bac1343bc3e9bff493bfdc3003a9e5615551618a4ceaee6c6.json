@@ -1,0 +1,12 @@
+{
+  "cwe_descriptions": [
+    "CWE-20: Improper Input Validation — The product receives input or data, but it does not validate or incorrectly validates that the input has the properties that are required to process the data safely and correctly.",
+    "CWE-400: Uncontrolled Resource Consumption — The product does not properly control the allocation and maintenance of a limited resource.",
+    "CWE-502: Deserialization of Untrusted Data — The product deserializes untrusted data without sufficiently ensuring that the resulting data will be valid.",
+    "CWE-917: Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection') — The product constructs all or part of an expression language (EL) statement in a framework such as a Java Server Page (JSP) using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended EL statement before it is executed."
+  ],
+  "source_request": {
+    "commit": "c77b3cb39312b83b053d23a2158b99ac7de44dd3",
+    "repository": "https://github.com/apache/logging-log4j2"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-400: Uncontrolled Resource Consumption — The product does not properly control the allocation and maintenance of a limited resource.",
+    "CWE-1333: Inefficient Regular Expression Complexity — The product uses a regular expression with an inefficient, possibly exponential worst-case computational complexity that consumes excessive CPU cycles."
+  ],
+  "source_request": {
+    "commit": "d10d72ca82db967f6c5fcf866ff78e3ca25ce1ab",
+    "repository": "https://github.com/mozilla/hawk"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-754: Improper Check for Unusual or Exceptional Conditions — The product does not check or incorrectly checks for unusual or exceptional conditions that are not expected to occur frequently during day to day operation of the product."
+  ],
+  "source_request": {
+    "commit": "1981eb123dc979fc71d097adeb5bbb84110aa9f4",
+    "repository": "https://github.com/moby/buildkit"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-385: Covert Timing Channel — Covert timing channels convey information by modulating some aspect of system behavior over time, so that the program receiving the information can observe system behavior and infer protected information."
+  ],
+  "source_request": {
+    "commit": "b158cedaba1e2f13c9fb96bb3f9b5265b255a1a3",
+    "repository": "https://github.com/RustCrypto/crypto-bigint"
+  }
+}

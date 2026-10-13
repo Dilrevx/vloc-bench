@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-400: Uncontrolled Resource Consumption — The product does not properly control the allocation and maintenance of a limited resource."
+  ],
+  "source_request": {
+    "commit": "e59b167d75f32c4d0db65a2dc6d5f0c4dd548653",
+    "repository": "https://github.com/sirupsen/logrus"
+  }
+}

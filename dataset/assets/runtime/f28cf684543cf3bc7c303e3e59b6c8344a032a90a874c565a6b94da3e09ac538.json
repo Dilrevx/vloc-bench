@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-284: Improper Access Control — The product does not restrict or incorrectly restricts access to a resource from an unauthorized actor.",
+    "CWE-287: Improper Authentication — When an actor claims to have a given identity, the product does not prove or insufficiently proves that the claim is correct."
+  ],
+  "source_request": {
+    "commit": "6174057818ff373a46a521ea2be544fb89ab419f",
+    "repository": "https://github.com/rancher/rancher"
+  }
+}

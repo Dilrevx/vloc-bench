@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') — The product does not neutralize or incorrectly neutralizes user-controllable input before it is placed in output that is used as a web page that is served to other users."
+  ],
+  "source_request": {
+    "commit": "955e057abc6cc83cbc3fa1e1ef67a49758bf5a61",
+    "repository": "https://github.com/webpack/webpack"
+  }
+}

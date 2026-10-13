@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-444: Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling') — The product acts as an intermediary HTTP agent (such as a proxy or firewall) in the data flow between two entities such as a client and server, but it does not interpret malformed HTTP requests or responses in ways that are consistent with how the messages will be processed by those entities that are at the ultimate destination."
+  ],
+  "source_request": {
+    "commit": "0bfe9a27291af2d8408025f13a0f57c6665a9896",
+    "repository": "https://github.com/quarkusio/quarkus"
+  }
+}

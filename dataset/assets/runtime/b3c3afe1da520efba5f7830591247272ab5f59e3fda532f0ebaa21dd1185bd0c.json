@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-770: Allocation of Resources Without Limits or Throttling — The product allocates a reusable resource or group of resources on behalf of an actor without imposing any intended restrictions on the size or number of resources that can be allocated."
+  ],
+  "source_request": {
+    "commit": "4c32059b2756926619f6bf70281b91be7b5dddb2",
+    "repository": "https://github.com/rs/cors"
+  }
+}

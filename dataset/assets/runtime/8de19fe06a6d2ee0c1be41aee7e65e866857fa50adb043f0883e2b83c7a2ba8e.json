@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-674: Uncontrolled Recursion — The product does not properly control the amount of recursion that takes place, consuming excessive resources, such as allocated memory or the program stack."
+  ],
+  "source_request": {
+    "commit": "623f8864341ba80a17f8c64d851490a6a11d8b2b",
+    "repository": "https://github.com/graphql-go/graphql"
+  }
+}

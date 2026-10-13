@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-61: UNIX Symbolic Link (Symlink) Following — The product, when opening a file or directory, does not sufficiently account for when the file is a symbolic link that resolves to a target outside of the intended control sphere. This could allow an attacker to cause the product to operate on unauthorized files.",
+    "CWE-377: Insecure Temporary File — Creating and using insecure temporary files can leave application and system data vulnerable to attack."
+  ],
+  "source_request": {
+    "commit": "04dbec0df8d03d5c187beaf5ce8e6c58e9fc82b5",
+    "repository": "https://github.com/golang/glog"
+  }
+}

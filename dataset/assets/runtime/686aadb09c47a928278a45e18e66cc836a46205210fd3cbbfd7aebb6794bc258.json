@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-77: Improper Neutralization of Special Elements used in a Command ('Command Injection') — The product constructs all or part of a command using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended command when it is sent to a downstream component.\n\nCWE-94: Improper Control of Generation of Code ('Code Injection') — The product constructs all or part of a code segment using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the syntax or behavior of the intended code segment."
+  ],
+  "source_request": {
+    "commit": "70009201d44c2d0ab39cc77081808a69a6c4fd63",
+    "repository": "https://github.com/grafana/grafana"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-1286: Improper Validation of Syntactic Correctness of Input — The product receives input that is expected to be well-formed - i.e., to comply with a certain syntax - but it does not validate or incorrectly validates that the input complies with the syntax."
+  ],
+  "source_request": {
+    "commit": "c880d9309b6f7b0730d69b4ec2179763d5d281cb",
+    "repository": "https://github.com/jetty/jetty.project"
+  }
+}

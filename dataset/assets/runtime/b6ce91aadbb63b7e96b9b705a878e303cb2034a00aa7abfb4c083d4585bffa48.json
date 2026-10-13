@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-612: Improper Authorization of Index Containing Sensitive Information — The product creates a search index of private or sensitive documents, but it does not properly limit index access to actors who are authorized to see the original information."
+  ],
+  "source_request": {
+    "commit": "42b936ef140fc143001c83fc03b6402d13ca4677",
+    "repository": "https://github.com/opensearch-project/security"
+  }
+}

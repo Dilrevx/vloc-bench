@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-1287: Improper Validation of Specified Type of Input — The product receives input that is expected to be of a certain type, but it does not validate or incorrectly validates that the input is actually of the expected type."
+  ],
+  "source_request": {
+    "commit": "95feac5269be09db25e548ee1eca8badcab4b1a9",
+    "repository": "https://github.com/kubernetes/kubernetes"
+  }
+}

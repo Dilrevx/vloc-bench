@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') — The product does not neutralize or incorrectly neutralizes user-controllable input before it is placed in output that is used as a web page that is served to other users."
+  ],
+  "source_request": {
+    "commit": "714ef29afe779a6db5c4761ebaacdfc70ee2d8dd",
+    "repository": "https://github.com/docsifyjs/docsify"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-402: Transmission of Private Resources into a New Sphere ('Resource Leak') — The product makes resources available to untrusted parties when those resources are only intended to be accessed by the product.",
+    "CWE-668: Exposure of Resource to Wrong Sphere — The product exposes a resource to the wrong control sphere, providing unintended actors with inappropriate access to the resource."
+  ],
+  "source_request": {
+    "commit": "37bb24cc6e7a3c75ca125b0d2aa7c095357f132b",
+    "repository": "https://github.com/vaadin/flow"
+  }
+}

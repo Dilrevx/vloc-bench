@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-20: Improper Input Validation — The product receives input or data, but it does not validate or incorrectly validates that the input has the properties that are required to process the data safely and correctly.",
+    "CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop') — The product contains an iteration or loop with an exit condition that cannot be reached, i.e., an infinite loop."
+  ],
+  "source_request": {
+    "commit": "3c95e96fd456e2bc1c57f1667d2afad1a15ca4ec",
+    "repository": "https://github.com/DrPaulBrewer/cumulative-distribution-function"
+  }
+}

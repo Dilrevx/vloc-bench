@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-502: Deserialization of Untrusted Data — The product deserializes untrusted data without sufficiently ensuring that the resulting data will be valid."
+  ],
+  "source_request": {
+    "commit": "b4ace5858b0e23b015f0835e9f9d045a24153f3c",
+    "repository": "https://github.com/apache/activemq"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-400: Uncontrolled Resource Consumption — The product does not properly control the allocation and maintenance of a limited resource."
+  ],
+  "source_request": {
+    "commit": "91aa3ebf42032ca783c41f9ec25d885875f66ddb",
+    "repository": "https://github.com/google/fscrypt"
+  }
+}

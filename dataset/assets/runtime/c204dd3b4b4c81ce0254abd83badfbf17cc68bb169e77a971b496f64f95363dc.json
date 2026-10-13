@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') — The product does not neutralize or incorrectly neutralizes user-controllable input before it is placed in output that is used as a web page that is served to other users."
+  ],
+  "source_request": {
+    "commit": "105d6a6998f9fb23795843355da4a7ed1e106a29",
+    "repository": "https://github.com/probablyup/markdown-to-jsx"
+  }
+}

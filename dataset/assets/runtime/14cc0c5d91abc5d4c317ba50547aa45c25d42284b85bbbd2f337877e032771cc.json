@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-691: Insufficient Control Flow Management — The code does not sufficiently manage its control flow during execution, creating conditions in which the control flow can be modified in unexpected ways."
+  ],
+  "source_request": {
+    "commit": "11522b836bd0d86cf43ec186aa3b2b8e986ca4fe",
+    "repository": "https://github.com/vyperlang/vyper"
+  }
+}

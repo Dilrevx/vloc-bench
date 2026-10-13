@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-476: NULL Pointer Dereference — The product dereferences a pointer that it expects to be valid but is NULL."
+  ],
+  "source_request": {
+    "commit": "66ab96a3f8c1d83e1f1dda646dd52a9cb2ab51c5",
+    "repository": "https://github.com/surrealdb/surrealdb"
+  }
+}

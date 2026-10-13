@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-401: Missing Release of Memory after Effective Lifetime — The product does not sufficiently track and release allocated memory after it has been used, making the memory unavailable for reallocation and reuse."
+  ],
+  "source_request": {
+    "commit": "a09f5d33ecd8846369b93cae9063291eb8abc3a0",
+    "repository": "https://github.com/cometbft/cometbft"
+  }
+}

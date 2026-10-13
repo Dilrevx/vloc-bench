@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-321: Use of Hard-coded Cryptographic Key — The product uses a hard-coded, unchangeable cryptographic key."
+  ],
+  "source_request": {
+    "commit": "cf6210a6f42355e88c422c624376f6fcdaea6729",
+    "repository": "https://github.com/netbirdio/netbird"
+  }
+}

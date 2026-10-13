@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-502: Deserialization of Untrusted Data — The product deserializes untrusted data without sufficiently ensuring that the resulting data will be valid."
+  ],
+  "source_request": {
+    "commit": "11e15f2a440dc49070ec6e5d6fee2675bc0b2997",
+    "repository": "https://github.com/apache/dubbo"
+  }
+}

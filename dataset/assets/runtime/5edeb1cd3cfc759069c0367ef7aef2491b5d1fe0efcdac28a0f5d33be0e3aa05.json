@@ -1,0 +1,11 @@
+{
+  "cwe_descriptions": [
+    "CWE-20: Improper Input Validation — The product receives input or data, but it does not validate or incorrectly validates that the input has the properties that are required to process the data safely and correctly.",
+    "CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') — The product uses external input to construct a pathname that is intended to identify a file or directory that is located underneath a restricted parent directory, but the product does not properly neutralize special elements within the pathname that can cause the pathname to resolve to a location that is outside of the restricted directory.",
+    "CWE-24: Path Traversal: '../filedir' — The product uses external input to construct a pathname that should be within a restricted directory, but it does not properly neutralize ../ sequences that can resolve to a location that is outside of that directory."
+  ],
+  "source_request": {
+    "commit": "69c2fd5c9f20ef47b3b950c5b5bb8341b6024bcf",
+    "repository": "https://github.com/kubernetes-sigs/secrets-store-csi-driver"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-347: Improper Verification of Cryptographic Signature — The product does not verify, or incorrectly verifies, the cryptographic signature for data."
+  ],
+  "source_request": {
+    "commit": "26b5e0e646ccec3d733ef58bcd593a40f81e20df",
+    "repository": "https://github.com/sigstore/gitsign"
+  }
+}

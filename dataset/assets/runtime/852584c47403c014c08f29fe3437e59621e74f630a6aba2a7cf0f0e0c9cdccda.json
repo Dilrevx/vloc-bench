@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-311: Missing Encryption of Sensitive Data — The product does not encrypt sensitive or critical information before storage or transmission."
+  ],
+  "source_request": {
+    "commit": "fc2bb37e287bd583b6699a2580710dc4c9e2deec",
+    "repository": "https://github.com/flynn/noise"
+  }
+}

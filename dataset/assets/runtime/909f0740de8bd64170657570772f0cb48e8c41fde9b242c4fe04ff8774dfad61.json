@@ -1,0 +1,7 @@
+{
+  "cwe_descriptions": [],
+  "source_request": {
+    "commit": "fc8677cb2f08e8ac6154f261b870d51ec0a4742b",
+    "repository": "https://github.com/dotansimha/graphql-code-generator"
+  }
+}

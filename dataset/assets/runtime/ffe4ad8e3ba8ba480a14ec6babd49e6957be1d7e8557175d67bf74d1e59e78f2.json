@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-20: Improper Input Validation — The product receives input or data, but it does not validate or incorrectly validates that the input has the properties that are required to process the data safely and correctly.",
+    "CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop') — The product contains an iteration or loop with an exit condition that cannot be reached, i.e., an infinite loop."
+  ],
+  "source_request": {
+    "commit": "4cf3ab619e565d9b88b4b130bff901b91d8688e9",
+    "repository": "https://github.com/parallax/jsPDF"
+  }
+}

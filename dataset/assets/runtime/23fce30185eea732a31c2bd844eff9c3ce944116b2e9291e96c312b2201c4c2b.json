@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-200: Exposure of Sensitive Information to an Unauthorized Actor — The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information."
+  ],
+  "source_request": {
+    "commit": "a263bf3466717ee4bab802d499a5a167d274813d",
+    "repository": "https://github.com/rancher/rancher"
+  }
+}

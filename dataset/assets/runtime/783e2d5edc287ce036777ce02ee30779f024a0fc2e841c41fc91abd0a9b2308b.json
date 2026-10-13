@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-94: Improper Control of Generation of Code ('Code Injection') — The product constructs all or part of a code segment using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the syntax or behavior of the intended code segment."
+  ],
+  "source_request": {
+    "commit": "c59b2d5b8cd6532b38c37f6284ca034c5b2321c3",
+    "repository": "https://github.com/apache/dolphinscheduler"
+  }
+}

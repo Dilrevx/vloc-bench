@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-617: Reachable Assertion — The product contains an assert() or similar statement that can be triggered by an attacker, which leads to an application exit or other behavior that is more severe than necessary."
+  ],
+  "source_request": {
+    "commit": "3bda459ebb1aaa74b20f8fe0d2d0472ce639ca02",
+    "repository": "https://github.com/NLnetLabs/routinator"
+  }
+}

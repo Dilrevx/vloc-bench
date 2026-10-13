@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-284: Improper Access Control — The product does not restrict or incorrectly restricts access to a resource from an unauthorized actor."
+  ],
+  "source_request": {
+    "commit": "e3923612c23123025c26f982d390e34df7df030f",
+    "repository": "https://github.com/wasmerio/wasmer"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-61: UNIX Symbolic Link (Symlink) Following — The product, when opening a file or directory, does not sufficiently account for when the file is a symbolic link that resolves to a target outside of the intended control sphere. This could allow an attacker to cause the product to operate on unauthorized files.",
+    "CWE-363: Race Condition Enabling Link Following — The product checks the status of a file or directory before accessing it, which produces a race condition in which the file can be replaced with a link before the access is performed, causing the product to access the wrong file."
+  ],
+  "source_request": {
+    "commit": "4be9937fb76c0c49a30469135a4077fcc33712b8",
+    "repository": "https://github.com/opencontainers/selinux"
+  }
+}

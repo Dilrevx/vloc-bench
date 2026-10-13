@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-338: Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG) — The product uses a Pseudo-Random Number Generator (PRNG) in a security context, but the PRNG's algorithm is not cryptographically strong."
+  ],
+  "source_request": {
+    "commit": "bfe47dba6ec04bb443051172f16ecabcd31431e3",
+    "repository": "https://github.com/apache/druid"
+  }
+}

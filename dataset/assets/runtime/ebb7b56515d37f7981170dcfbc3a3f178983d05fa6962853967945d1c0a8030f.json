@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-200: Exposure of Sensitive Information to an Unauthorized Actor — The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information."
+  ],
+  "source_request": {
+    "commit": "a3c1b3a1b9b0eeb061e9200b646489511273a8fd",
+    "repository": "https://github.com/quarkusio/quarkus"
+  }
+}

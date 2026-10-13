@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-20: Improper Input Validation — The product receives input or data, but it does not validate or incorrectly validates that the input has the properties that are required to process the data safely and correctly.\n\nCWE-77: Improper Neutralization of Special Elements used in a Command ('Command Injection') — The product constructs all or part of a command using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended command when it is sent to a downstream component."
+  ],
+  "source_request": {
+    "commit": "45f4ccc2153bbb782253704cbe24c05e22b5d60c",
+    "repository": "https://github.com/kubernetes/kubernetes"
+  }
+}

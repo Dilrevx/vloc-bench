@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-20: Improper Input Validation — The product receives input or data, but it does not validate or incorrectly validates that the input has the properties that are required to process the data safely and correctly.",
+    "CWE-1287: Improper Validation of Specified Type of Input — The product receives input that is expected to be of a certain type, but it does not validate or incorrectly validates that the input is actually of the expected type."
+  ],
+  "source_request": {
+    "commit": "31673c03aaee62e2ef8402883e23d9eabb0b6280",
+    "repository": "https://github.com/mongodb/mongo-go-driver"
+  }
+}

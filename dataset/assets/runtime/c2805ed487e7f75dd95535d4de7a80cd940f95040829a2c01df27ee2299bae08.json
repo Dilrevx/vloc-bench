@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-862: Missing Authorization — The product does not perform an authorization check when an actor attempts to access a resource or perform an action."
+  ],
+  "source_request": {
+    "commit": "12a09f6d5dc6635fcfaa430dc1d45240d2d34a05",
+    "repository": "https://github.com/apache/dolphinscheduler"
+  }
+}

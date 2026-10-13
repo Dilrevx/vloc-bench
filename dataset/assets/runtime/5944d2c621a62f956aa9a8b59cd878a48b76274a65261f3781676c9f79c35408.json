@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-306: Missing Authentication for Critical Function — The product does not perform any authentication for functionality that requires a provable user identity or consumes a significant amount of resources."
+  ],
+  "source_request": {
+    "commit": "c523af6ff0e94a60ca26e1aff23a6526e8cab754",
+    "repository": "https://github.com/apolloconfig/apollo"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-1333: Inefficient Regular Expression Complexity — The product uses a regular expression with an inefficient, possibly exponential worst-case computational complexity that consumes excessive CPU cycles."
+  ],
+  "source_request": {
+    "commit": "30b8e5e127fcb9b41a50ebf1a1e948157c08b142",
+    "repository": "https://github.com/dbartholomae/lambda-middleware"
+  }
+}

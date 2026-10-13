@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-789: Memory Allocation with Excessive Size Value — The product allocates memory based on an untrusted, large size value, but it does not ensure that the size is within expected limits, allowing arbitrary amounts of memory to be allocated."
+  ],
+  "source_request": {
+    "commit": "42bcff666855ab978e67a9041d0cdea552f20301",
+    "repository": "https://github.com/sajari/docconv"
+  }
+}

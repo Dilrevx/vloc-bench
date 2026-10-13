@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-288: Authentication Bypass Using an Alternate Path or Channel — The product requires authentication, but the product has an alternate path or channel that does not require authentication."
+  ],
+  "source_request": {
+    "commit": "1b87488aeaf4836e3ef25b426ebbf1ad5a68e68f",
+    "repository": "https://github.com/apache/pinot"
+  }
+}

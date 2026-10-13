@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer — The product performs operations on a memory buffer, but it reads from or writes to a memory location outside the buffer's intended boundary. This may result in read or write operations on unexpected memory locations that could be linked to other variables, data structures, or internal program data.\n\nCWE-120: Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') — The product copies an input buffer to an output buffer without verifying that the size of the input buffer is less than the size of the output buffer."
+  ],
+  "source_request": {
+    "commit": "63b8d1da768727bb5f3e96d0d532d4d9f22e5441",
+    "repository": "https://github.com/vyperlang/vyper"
+  }
+}

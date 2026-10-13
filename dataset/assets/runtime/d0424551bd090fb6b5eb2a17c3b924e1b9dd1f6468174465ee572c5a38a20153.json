@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-20: Improper Input Validation — The product receives input or data, but it does not validate or incorrectly validates that the input has the properties that are required to process the data safely and correctly."
+  ],
+  "source_request": {
+    "commit": "976c5a7e3205cc85673276b78b50c224dfeb6698",
+    "repository": "https://github.com/undertow-io/undertow"
+  }
+}

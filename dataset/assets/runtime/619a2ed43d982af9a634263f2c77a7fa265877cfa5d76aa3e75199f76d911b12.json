@@ -1,0 +1,11 @@
+{
+  "cwe_descriptions": [
+    "CWE-269: Improper Privilege Management — The product does not properly assign, modify, track, or check privileges for an actor, creating an unintended sphere of control for that actor.",
+    "CWE-277: Insecure Inherited Permissions — A product defines a set of insecure permissions that are inherited by objects that are created by the program.",
+    "CWE-613: Insufficient Session Expiration — According to WASC, Insufficient Session Expiration is when a web site permits an attacker to reuse old session credentials or session IDs for authorization."
+  ],
+  "source_request": {
+    "commit": "20d67d7d7191a4fd5d36a61c6fc1e23ab59befc0",
+    "repository": "https://github.com/coder/coder"
+  }
+}

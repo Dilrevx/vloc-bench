@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-665: Improper Initialization — The product does not initialize or incorrectly initializes a resource, which might leave the resource in an unexpected state when it is accessed or used."
+  ],
+  "source_request": {
+    "commit": "141af4d716c8ef15a830f1b0f1dd94e1b831d229",
+    "repository": "https://github.com/google/go-tpm"
+  }
+}

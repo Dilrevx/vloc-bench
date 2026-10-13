@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-116: Improper Encoding or Escaping of Output — The product prepares a structured message for communication with another component, but encoding or escaping of the data is either missing or done incorrectly. As a result, the intended structure of the message is not preserved.\n\nCWE-117: Improper Output Neutralization for Logs — The product constructs a log message from external input, but it does not neutralize or incorrectly neutralizes special elements when the message is written to a log file.\n\nCWE-532: Insertion of Sensitive Information into Log File — The product writes sensitive information to a log file."
+  ],
+  "source_request": {
+    "commit": "cfd301a586302785fa888117deaf06955a240cdd",
+    "repository": "https://github.com/ansible/ansible"
+  }
+}

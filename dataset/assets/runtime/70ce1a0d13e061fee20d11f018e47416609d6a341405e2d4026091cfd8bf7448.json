@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-297: Improper Validation of Certificate with Host Mismatch — The product communicates with a host that provides a certificate, but the product does not properly ensure that the certificate is actually associated with that host."
+  ],
+  "source_request": {
+    "commit": "faa1c194f3169d3b7a1f89703932db78b6a3aa73",
+    "repository": "https://github.com/keycloak/keycloak"
+  }
+}

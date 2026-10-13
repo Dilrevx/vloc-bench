@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-306: Missing Authentication for Critical Function — The product does not perform any authentication for functionality that requires a provable user identity or consumes a significant amount of resources."
+  ],
+  "source_request": {
+    "commit": "34dc51a579ac29bddc6114ae31d1008a8cb486c5",
+    "repository": "https://github.com/minio/console"
+  }
+}

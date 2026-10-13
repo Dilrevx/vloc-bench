@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-287: Improper Authentication — When an actor claims to have a given identity, the product does not prove or insufficiently proves that the claim is correct."
+  ],
+  "source_request": {
+    "commit": "7f4befdea77045fa83b5f2b304bd5e16b219f74c",
+    "repository": "https://github.com/ansible/ansible"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-306: Missing Authentication for Critical Function — The product does not perform any authentication for functionality that requires a provable user identity or consumes a significant amount of resources.",
+    "CWE-862: Missing Authorization — The product does not perform an authorization check when an actor attempts to access a resource or perform an action."
+  ],
+  "source_request": {
+    "commit": "9a02215013037e1cc8cd41f216164628a9e9e28f",
+    "repository": "https://github.com/apache/shenyu"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-908: Use of Uninitialized Resource — The product uses or accesses a resource that has not been initialized."
+  ],
+  "source_request": {
+    "commit": "d964e42e207975fcb42777297c988c2cf2a014a7",
+    "repository": "https://github.com/jblondin/csv-sniffer"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-436: Interpretation Conflict — Product A handles inputs or steps differently than Product B, which causes A to perform incorrect actions based on its perception of B's state."
+  ],
+  "source_request": {
+    "commit": "9c16d23918b15c468c5647c388b9b7db3bc48dc7",
+    "repository": "https://github.com/btcsuite/btcd"
+  }
+}

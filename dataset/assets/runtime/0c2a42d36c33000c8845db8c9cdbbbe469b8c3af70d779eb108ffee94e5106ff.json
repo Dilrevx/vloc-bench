@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-20: Improper Input Validation — The product receives input or data, but it does not validate or incorrectly validates that the input has the properties that are required to process the data safely and correctly."
+  ],
+  "source_request": {
+    "commit": "ab81134a43431457508bc2ead500f2d93ac0a71d",
+    "repository": "https://github.com/substack/static-eval"
+  }
+}

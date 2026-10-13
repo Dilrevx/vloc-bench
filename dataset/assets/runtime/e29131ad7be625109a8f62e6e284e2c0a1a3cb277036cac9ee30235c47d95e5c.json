@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-269: Improper Privilege Management — The product does not properly assign, modify, track, or check privileges for an actor, creating an unintended sphere of control for that actor."
+  ],
+  "source_request": {
+    "commit": "2dc9f527fe5165adace2aa12eb6b291167777784",
+    "repository": "https://github.com/xwiki/xwiki-platform"
+  }
+}

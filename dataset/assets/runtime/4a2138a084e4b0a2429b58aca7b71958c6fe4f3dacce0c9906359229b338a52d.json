@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-863: Incorrect Authorization — The product performs an authorization check when an actor attempts to access a resource or perform an action, but it does not correctly perform the check."
+  ],
+  "source_request": {
+    "commit": "d1ccbb7885a8625741a5db13e100c3ec4b9f5410",
+    "repository": "https://github.com/moby/buildkit"
+  }
+}

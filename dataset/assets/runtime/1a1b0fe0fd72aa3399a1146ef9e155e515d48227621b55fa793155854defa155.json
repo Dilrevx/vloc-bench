@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-200: Exposure of Sensitive Information to an Unauthorized Actor — The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information."
+  ],
+  "source_request": {
+    "commit": "a8a9a85b86b3fb0ef91d7b4916f9a400c823fc3b",
+    "repository": "https://github.com/openshift/cluster-monitoring-operator"
+  }
+}

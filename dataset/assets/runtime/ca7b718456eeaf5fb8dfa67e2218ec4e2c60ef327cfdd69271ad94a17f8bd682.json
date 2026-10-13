@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-400: Uncontrolled Resource Consumption — The product does not properly control the allocation and maintenance of a limited resource."
+  ],
+  "source_request": {
+    "commit": "56600883e0e9f9b159e9c7000b94e76185ec3d0d",
+    "repository": "https://github.com/Consensys/gnark-crypto"
+  }
+}

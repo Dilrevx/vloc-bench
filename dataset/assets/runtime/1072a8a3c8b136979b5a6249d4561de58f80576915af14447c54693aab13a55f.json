@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-287: Improper Authentication — When an actor claims to have a given identity, the product does not prove or insufficiently proves that the claim is correct.",
+    "CWE-863: Incorrect Authorization — The product performs an authorization check when an actor attempts to access a resource or perform an action, but it does not correctly perform the check."
+  ],
+  "source_request": {
+    "commit": "8804ecbc7ad781d26905875cd3d2dfb02ea34e92",
+    "repository": "https://github.com/apache/ozone"
+  }
+}

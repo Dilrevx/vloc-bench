@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-400: Uncontrolled Resource Consumption — The product does not properly control the allocation and maintenance of a limited resource.",
+    "CWE-789: Memory Allocation with Excessive Size Value — The product allocates memory based on an untrusted, large size value, but it does not ensure that the size is within expected limits, allowing arbitrary amounts of memory to be allocated."
+  ],
+  "source_request": {
+    "commit": "60963137589d09158532c71767a7a1f113821a20",
+    "repository": "https://github.com/gagliardetto/binary"
+  }
+}

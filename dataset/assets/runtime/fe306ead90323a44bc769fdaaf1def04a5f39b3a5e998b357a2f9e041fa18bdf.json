@@ -1,0 +1,7 @@
+{
+  "cwe_descriptions": [],
+  "source_request": {
+    "commit": "2499bf1bad239a8316c32932a993642350b3afdb",
+    "repository": "https://github.com/flynn/noise"
+  }
+}

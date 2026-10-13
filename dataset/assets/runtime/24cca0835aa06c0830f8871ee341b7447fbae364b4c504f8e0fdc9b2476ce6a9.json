@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-20: Improper Input Validation — The product receives input or data, but it does not validate or incorrectly validates that the input has the properties that are required to process the data safely and correctly."
+  ],
+  "source_request": {
+    "commit": "2a2ecc916925642fd8cb1efd026588e6828f82e1",
+    "repository": "https://github.com/argoproj/argo-workflows"
+  }
+}

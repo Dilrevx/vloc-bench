@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-20: Improper Input Validation — The product receives input or data, but it does not validate or incorrectly validates that the input has the properties that are required to process the data safely and correctly."
+  ],
+  "source_request": {
+    "commit": "4fdf92702a0191e2b1d4a8188453e102a8d51cf6",
+    "repository": "https://github.com/kubernetes-csi/csi-proxy"
+  }
+}

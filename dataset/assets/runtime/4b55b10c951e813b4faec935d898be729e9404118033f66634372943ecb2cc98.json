@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-20: Improper Input Validation — The product receives input or data, but it does not validate or incorrectly validates that the input has the properties that are required to process the data safely and correctly."
+  ],
+  "source_request": {
+    "commit": "8f4986946cae047c532687efe8223f090527b39f",
+    "repository": "https://github.com/open-policy-agent/opa"
+  }
+}

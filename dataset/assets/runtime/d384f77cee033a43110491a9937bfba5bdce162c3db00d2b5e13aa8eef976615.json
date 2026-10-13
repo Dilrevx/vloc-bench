@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-269: Improper Privilege Management — The product does not properly assign, modify, track, or check privileges for an actor, creating an unintended sphere of control for that actor."
+  ],
+  "source_request": {
+    "commit": "35ecd17461c2ad1ff7fd4d1a1e59dc707978095b",
+    "repository": "https://github.com/projectcalico/calico"
+  }
+}

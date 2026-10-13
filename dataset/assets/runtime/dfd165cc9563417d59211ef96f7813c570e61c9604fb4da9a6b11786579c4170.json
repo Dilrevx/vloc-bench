@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-862: Missing Authorization — The product does not perform an authorization check when an actor attempts to access a resource or perform an action.",
+    "CWE-863: Incorrect Authorization — The product performs an authorization check when an actor attempts to access a resource or perform an action, but it does not correctly perform the check."
+  ],
+  "source_request": {
+    "commit": "3e2ec34409babda7f625889f3620c9d3810521fc",
+    "repository": "https://github.com/hashicorp/consul"
+  }
+}

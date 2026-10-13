@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-1286: Improper Validation of Syntactic Correctness of Input — The product receives input that is expected to be well-formed - i.e., to comply with a certain syntax - but it does not validate or incorrectly validates that the input complies with the syntax."
+  ],
+  "source_request": {
+    "commit": "ccd8c4bbabf867cf0edce16aa0db7209ee1af06e",
+    "repository": "https://github.com/nyaruka/phonenumbers"
+  }
+}

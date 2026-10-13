@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-400: Uncontrolled Resource Consumption — The product does not properly control the allocation and maintenance of a limited resource."
+  ],
+  "source_request": {
+    "commit": "b4a402f41cf44b6094b5131286830ba9bb1eb290",
+    "repository": "https://github.com/hamba/avro"
+  }
+}

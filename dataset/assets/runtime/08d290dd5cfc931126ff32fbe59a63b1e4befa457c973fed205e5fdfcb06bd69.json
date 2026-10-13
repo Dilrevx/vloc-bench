@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-295: Improper Certificate Validation — The product does not validate, or incorrectly validates, a certificate."
+  ],
+  "source_request": {
+    "commit": "648690fdfd13735166596a1ac9906136667ca3ee",
+    "repository": "https://github.com/apache/httpcomponents-client"
+  }
+}

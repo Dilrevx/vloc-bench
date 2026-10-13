@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-346: Origin Validation Error — The product does not properly verify that the source of data or communication is valid."
+  ],
+  "source_request": {
+    "commit": "1183157d862f9ccc66e1d6b36018e1aea6d49046",
+    "repository": "https://github.com/keycloak/keycloak"
+  }
+}

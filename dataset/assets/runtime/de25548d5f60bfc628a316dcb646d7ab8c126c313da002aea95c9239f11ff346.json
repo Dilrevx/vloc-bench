@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-94: Improper Control of Generation of Code ('Code Injection') — The product constructs all or part of a code segment using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the syntax or behavior of the intended code segment."
+  ],
+  "source_request": {
+    "commit": "c2a5adef47a5b6cda3fb5c57b4e73311b89ed852",
+    "repository": "https://github.com/korzio/djv"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-436: Interpretation Conflict — Product A handles inputs or steps differently than Product B, which causes A to perform incorrect actions based on its perception of B's state."
+  ],
+  "source_request": {
+    "commit": "fb4007bb2208a5b76f76287c03001ef906261691",
+    "repository": "https://github.com/ethereum/go-ethereum"
+  }
+}

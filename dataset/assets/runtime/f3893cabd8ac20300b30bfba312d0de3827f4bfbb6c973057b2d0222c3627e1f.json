@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-400: Uncontrolled Resource Consumption — The product does not properly control the allocation and maintenance of a limited resource."
+  ],
+  "source_request": {
+    "commit": "fcee5293ab0ab6c74bd89cd0f77fca694622590a",
+    "repository": "https://github.com/kubeedge/kubeedge"
+  }
+}

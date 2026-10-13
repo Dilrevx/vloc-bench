@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-287: Improper Authentication — When an actor claims to have a given identity, the product does not prove or insufficiently proves that the claim is correct.",
+    "CWE-345: Insufficient Verification of Data Authenticity — The product does not sufficiently verify the origin or authenticity of data, in a way that causes it to accept invalid data."
+  ],
+  "source_request": {
+    "commit": "00f948c6056f6968b07e2b92d537c0a61559e2ed",
+    "repository": "https://github.com/caddyserver/caddy"
+  }
+}

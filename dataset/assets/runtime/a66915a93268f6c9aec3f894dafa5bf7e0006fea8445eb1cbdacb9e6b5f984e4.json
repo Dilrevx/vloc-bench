@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-200: Exposure of Sensitive Information to an Unauthorized Actor — The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information.",
+    "CWE-653: Improper Isolation or Compartmentalization — The product does not properly compartmentalize or isolate functionality, processes, or resources that require different privilege levels, rights, or permissions."
+  ],
+  "source_request": {
+    "commit": "40eed5247d95cfd5960cb276fe2e76b1328a01a3",
+    "repository": "https://github.com/metal3-io/baremetal-operator"
+  }
+}

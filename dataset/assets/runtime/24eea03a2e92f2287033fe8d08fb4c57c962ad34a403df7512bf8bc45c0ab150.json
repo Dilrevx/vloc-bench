@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-362: Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition') — The product contains a concurrent code sequence that requires temporary, exclusive access to a shared resource, but a timing window exists in which the shared resource can be modified by another code sequence operating concurrently."
+  ],
+  "source_request": {
+    "commit": "4d9e8bc2e6da0fa400f5af962b0aa718fa28bb49",
+    "repository": "https://github.com/argoproj/argo-cd"
+  }
+}

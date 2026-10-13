@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-653: Improper Isolation or Compartmentalization — The product does not properly compartmentalize or isolate functionality, processes, or resources that require different privilege levels, rights, or permissions."
+  ],
+  "source_request": {
+    "commit": "010916360e1388f75ca69d889966cfab82be4a1a",
+    "repository": "https://github.com/kubernetes/ingress-nginx"
+  }
+}

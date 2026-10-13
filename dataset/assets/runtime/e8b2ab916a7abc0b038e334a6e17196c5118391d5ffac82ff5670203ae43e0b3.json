@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-287: Improper Authentication — When an actor claims to have a given identity, the product does not prove or insufficiently proves that the claim is correct."
+  ],
+  "source_request": {
+    "commit": "0f2389735fd32e0bbc93ecde5d8c814b275b21b5",
+    "repository": "https://github.com/apache/accumulo"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-284: Improper Access Control — The product does not restrict or incorrectly restricts access to a resource from an unauthorized actor.",
+    "CWE-552: Files or Directories Accessible to External Parties — The product makes files or directories accessible to unauthorized actors, even though they should not be."
+  ],
+  "source_request": {
+    "commit": "d7a45d0f116161366c86e583d929b7ca3ca69ff1",
+    "repository": "https://github.com/weaveworks/weave-gitops"
+  }
+}

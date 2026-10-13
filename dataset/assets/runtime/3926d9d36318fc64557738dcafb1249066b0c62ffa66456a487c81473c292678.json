@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-116: Improper Encoding or Escaping of Output — The product prepares a structured message for communication with another component, but encoding or escaping of the data is either missing or done incorrectly. As a result, the intended structure of the message is not preserved."
+  ],
+  "source_request": {
+    "commit": "82c31ea56be4ac756140f082d216268e1dca6ac8",
+    "repository": "https://github.com/xwiki/xwiki-platform"
+  }
+}

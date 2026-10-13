@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-476: NULL Pointer Dereference — The product dereferences a pointer that it expects to be valid but is NULL."
+  ],
+  "source_request": {
+    "commit": "50eb7e363df2da182839f5c0e3ff2168d10ee7d3",
+    "repository": "https://github.com/chronotope/chrono"
+  }
+}

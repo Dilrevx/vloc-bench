@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') — The product uses external input to construct a pathname that is intended to identify a file or directory that is located underneath a restricted parent directory, but the product does not properly neutralize special elements within the pathname that can cause the pathname to resolve to a location that is outside of the restricted directory."
+  ],
+  "source_request": {
+    "commit": "c37d3c3b318850ac99417415723d9af09eca1544",
+    "repository": "https://github.com/moby/buildkit"
+  }
+}

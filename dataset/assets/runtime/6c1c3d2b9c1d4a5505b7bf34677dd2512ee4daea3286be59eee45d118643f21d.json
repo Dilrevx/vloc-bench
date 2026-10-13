@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-400: Uncontrolled Resource Consumption — The product does not properly control the allocation and maintenance of a limited resource.",
+    "CWE-755: Improper Handling of Exceptional Conditions — The product does not handle or incorrectly handles an exceptional condition."
+  ],
+  "source_request": {
+    "commit": "b4cc08166e72257503aa823f3c1ddcca2fe9273c",
+    "repository": "https://github.com/swaggo/http-swagger"
+  }
+}

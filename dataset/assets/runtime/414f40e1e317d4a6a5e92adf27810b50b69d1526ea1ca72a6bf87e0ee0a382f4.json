@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-502: Deserialization of Untrusted Data — The product deserializes untrusted data without sufficiently ensuring that the resulting data will be valid.",
+    "CWE-639: Authorization Bypass Through User-Controlled Key — The system's authorization functionality does not prevent one user from gaining access to another user's data or record by modifying the key value identifying the data."
+  ],
+  "source_request": {
+    "commit": "b30161e1ce96a8349472a32a33eb4b41caa1442a",
+    "repository": "https://github.com/apache/inlong"
+  }
+}

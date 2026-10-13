@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-400: Uncontrolled Resource Consumption — The product does not properly control the allocation and maintenance of a limited resource."
+  ],
+  "source_request": {
+    "commit": "2e44d7a76a851d66890ab341403253afae5caac2",
+    "repository": "https://github.com/pires/go-proxyproto"
+  }
+}

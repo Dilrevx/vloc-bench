@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') — The product uses external input to construct a pathname that is intended to identify a file or directory that is located underneath a restricted parent directory, but the product does not properly neutralize special elements within the pathname that can cause the pathname to resolve to a location that is outside of the restricted directory.",
+    "CWE-35: Path Traversal: '.../...//' — The product uses external input to construct a pathname that should be within a restricted directory, but it does not properly neutralize '.../...//' (doubled triple dot slash) sequences that can resolve to a location that is outside of that directory."
+  ],
+  "source_request": {
+    "commit": "3f1104b7d20c1fdc0616fb813fce65b94ac2a657",
+    "repository": "https://github.com/NLnetLabs/routinator"
+  }
+}

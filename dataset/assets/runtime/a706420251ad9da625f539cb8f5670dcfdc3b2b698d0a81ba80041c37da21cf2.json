@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-306: Missing Authentication for Critical Function — The product does not perform any authentication for functionality that requires a provable user identity or consumes a significant amount of resources."
+  ],
+  "source_request": {
+    "commit": "642768d631d4e5d1a07a74f3a904e0f8fc1a1c6f",
+    "repository": "https://github.com/cilium/cilium"
+  }
+}

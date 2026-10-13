@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-200: Exposure of Sensitive Information to an Unauthorized Actor — The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information."
+  ],
+  "source_request": {
+    "commit": "1d6f852cd6534f4bea978cbdc85c583803d79f77",
+    "repository": "https://github.com/kopia/kopia"
+  }
+}

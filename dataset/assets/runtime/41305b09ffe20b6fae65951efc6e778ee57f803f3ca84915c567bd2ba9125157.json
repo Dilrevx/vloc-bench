@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-863: Incorrect Authorization — The product performs an authorization check when an actor attempts to access a resource or perform an action, but it does not correctly perform the check."
+  ],
+  "source_request": {
+    "commit": "790393ae92e97262827d4f1fba24e8ae65bbada0",
+    "repository": "https://github.com/kubernetes/kubernetes"
+  }
+}

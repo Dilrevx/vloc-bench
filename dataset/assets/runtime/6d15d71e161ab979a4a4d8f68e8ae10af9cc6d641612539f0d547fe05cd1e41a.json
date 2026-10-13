@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-20: Improper Input Validation — The product receives input or data, but it does not validate or incorrectly validates that the input has the properties that are required to process the data safely and correctly."
+  ],
+  "source_request": {
+    "commit": "c1ce5ff741551ee9c6d0c2f4971f8dc08e9035fb",
+    "repository": "https://github.com/matklad/once_cell"
+  }
+}

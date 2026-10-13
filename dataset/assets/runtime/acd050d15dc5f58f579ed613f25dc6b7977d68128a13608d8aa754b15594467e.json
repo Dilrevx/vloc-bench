@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') — The product uses external input to construct a pathname that is intended to identify a file or directory that is located underneath a restricted parent directory, but the product does not properly neutralize special elements within the pathname that can cause the pathname to resolve to a location that is outside of the restricted directory."
+  ],
+  "source_request": {
+    "commit": "d6034557a54fe4c9734c8d1004437cd8d9c3c93c",
+    "repository": "https://github.com/hpcng/singularity"
+  }
+}

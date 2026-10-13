@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-1333: Inefficient Regular Expression Complexity — The product uses a regular expression with an inefficient, possibly exponential worst-case computational complexity that consumes excessive CPU cycles."
+  ],
+  "source_request": {
+    "commit": "cf4244a98da05f47d57ac018cfc3caf40a4381b7",
+    "repository": "https://github.com/babel/babel"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-307: Improper Restriction of Excessive Authentication Attempts — The product does not implement sufficient measures to prevent multiple failed authentication attempts within a short time frame."
+  ],
+  "source_request": {
+    "commit": "a6f9d7534aa44de741337756f8377ad3a81f7695",
+    "repository": "https://github.com/wildfly/wildfly-core"
+  }
+}

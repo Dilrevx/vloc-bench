@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-330: Use of Insufficiently Random Values — The product uses insufficiently random numbers or values in a security context that depends on unpredictable numbers."
+  ],
+  "source_request": {
+    "commit": "6ecbe2626b2cc6110a25c97b1702b347574febc7",
+    "repository": "https://github.com/rust-random/rand"
+  }
+}

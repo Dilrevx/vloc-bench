@@ -1,0 +1,7 @@
+{
+  "cwe_descriptions": [],
+  "source_request": {
+    "commit": "0e91b789483fbfa88207988e600c794f74499d12",
+    "repository": "https://github.com/crossbeam-rs/crossbeam"
+  }
+}

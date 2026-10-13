@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-672: Operation on a Resource after Expiration or Release — The product uses, accesses, or otherwise operates on a resource after that resource has been expired, released, or revoked."
+  ],
+  "source_request": {
+    "commit": "be6f99afde8760dcf87b5dcdade832400e826791",
+    "repository": "https://github.com/planus-org/planus"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-400: Uncontrolled Resource Consumption — The product does not properly control the allocation and maintenance of a limited resource."
+  ],
+  "source_request": {
+    "commit": "07ece816b66e77b956df16be1388feef20313fd1",
+    "repository": "https://github.com/containers/aardvark-dns"
+  }
+}

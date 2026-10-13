@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-287: Improper Authentication — When an actor claims to have a given identity, the product does not prove or insufficiently proves that the claim is correct."
+  ],
+  "source_request": {
+    "commit": "9356843c6c3d7097d010b3bb6f91e25fcaba378c",
+    "repository": "https://github.com/keycloak/keycloak"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') — The product uses external input to construct a pathname that is intended to identify a file or directory that is located underneath a restricted parent directory, but the product does not properly neutralize special elements within the pathname that can cause the pathname to resolve to a location that is outside of the restricted directory.",
+    "CWE-74: Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection') — The product constructs all or part of a command, data structure, or record using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify how it is parsed or interpreted when it is sent to a downstream component."
+  ],
+  "source_request": {
+    "commit": "764329ed1dbc47c4a517ccc749e3feb34059fac8",
+    "repository": "https://github.com/woodpecker-ci/woodpecker"
+  }
+}

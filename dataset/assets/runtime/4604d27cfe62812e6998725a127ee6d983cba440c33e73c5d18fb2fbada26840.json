@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-200: Exposure of Sensitive Information to an Unauthorized Actor — The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information.",
+    "CWE-1220: Insufficient Granularity of Access Control — The product implements access controls via a policy or other feature with the intention to disable or restrict accesses (reads and/or writes) to assets in a system from untrusted agents. However, implemented access controls lack required granularity, which renders the control policy too broad because it allows accesses from unauthorized agents to the security-sensitive assets."
+  ],
+  "source_request": {
+    "commit": "b46b5dfb2aa3a1f5320a7a3420b9186bb8fc655f",
+    "repository": "https://github.com/miniflux/v2"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') — The product does not neutralize or incorrectly neutralizes user-controllable input before it is placed in output that is used as a web page that is served to other users.",
+    "CWE-80: Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS) — The product receives input from an upstream component, but it does not neutralize or incorrectly neutralizes special characters such as <, >, and & that could be interpreted as web-scripting elements when they are sent to a downstream component that processes web pages."
+  ],
+  "source_request": {
+    "commit": "4d0629dcf424d805857bec33214e8eb3c0cb781b",
+    "repository": "https://github.com/keycloak/keycloak"
+  }
+}

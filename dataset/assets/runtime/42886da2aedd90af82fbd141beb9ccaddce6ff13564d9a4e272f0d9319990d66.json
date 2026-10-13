@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-269: Improper Privilege Management — The product does not properly assign, modify, track, or check privileges for an actor, creating an unintended sphere of control for that actor."
+  ],
+  "source_request": {
+    "commit": "63e2246700762c2987943c58f6d09d66adc6eced",
+    "repository": "https://github.com/apache/shenyu"
+  }
+}

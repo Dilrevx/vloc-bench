@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-670: Always-Incorrect Control Flow Implementation — The code contains a control flow path that does not reflect the algorithm that the path is intended to implement, leading to incorrect behavior any time this path is navigated.",
+    "CWE-703: Improper Check or Handling of Exceptional Conditions — The product does not properly anticipate or handle exceptional conditions that rarely occur during normal operation of the product."
+  ],
+  "source_request": {
+    "commit": "7caa05590a4c8788b01795d3e18a7aefe1183ebf",
+    "repository": "https://github.com/vyperlang/vyper"
+  }
+}

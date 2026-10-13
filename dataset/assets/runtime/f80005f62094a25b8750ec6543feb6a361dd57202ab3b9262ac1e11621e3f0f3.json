@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-601: URL Redirection to Untrusted Site ('Open Redirect') — The web application accepts a user-controlled input that specifies a link to an external site, and uses that link in a redirect."
+  ],
+  "source_request": {
+    "commit": "d7ab817de74eede13b20c3f7009cf5b463bcef81",
+    "repository": "https://github.com/pomerium/pomerium"
+  }
+}

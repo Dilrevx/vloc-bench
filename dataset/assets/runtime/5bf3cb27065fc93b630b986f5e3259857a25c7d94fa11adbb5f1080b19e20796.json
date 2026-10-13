@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-200: Exposure of Sensitive Information to an Unauthorized Actor — The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information."
+  ],
+  "source_request": {
+    "commit": "afda68a38acca37becb8ba6d8982d03fee9559a0",
+    "repository": "https://github.com/Consensys/gnark"
+  }
+}

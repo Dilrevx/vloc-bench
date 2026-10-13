@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-400: Uncontrolled Resource Consumption — The product does not properly control the allocation and maintenance of a limited resource.",
+    "CWE-772: Missing Release of Resource after Effective Lifetime — The product does not release a resource after its effective lifetime has ended, i.e., after the resource is no longer needed."
+  ],
+  "source_request": {
+    "commit": "9075cdf61646b5adf54d3ba77a0e4f6c65cb4fd7",
+    "repository": "https://github.com/prometheus/client_golang"
+  }
+}

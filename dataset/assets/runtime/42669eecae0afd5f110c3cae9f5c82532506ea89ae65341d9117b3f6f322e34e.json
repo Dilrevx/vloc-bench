@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-200: Exposure of Sensitive Information to an Unauthorized Actor — The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information.",
+    "CWE-601: URL Redirection to Untrusted Site ('Open Redirect') — The web application accepts a user-controlled input that specifies a link to an external site, and uses that link in a redirect."
+  ],
+  "source_request": {
+    "commit": "8f97b0d6ee29326a31560f0a3aec535afacd2881",
+    "repository": "https://github.com/pomerium/pomerium"
+  }
+}

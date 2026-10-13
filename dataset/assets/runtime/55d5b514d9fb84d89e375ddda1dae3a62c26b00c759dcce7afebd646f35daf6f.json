@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-674: Uncontrolled Recursion — The product does not properly control the amount of recursion that takes place, consuming excessive resources, such as allocated memory or the program stack."
+  ],
+  "source_request": {
+    "commit": "58f447a234d6ef17e8ae52300f49e0efe6c08a29",
+    "repository": "https://github.com/AhmedAdelFahim/express-xss-sanitizer"
+  }
+}

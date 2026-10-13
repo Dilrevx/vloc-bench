@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-20: Improper Input Validation — The product receives input or data, but it does not validate or incorrectly validates that the input has the properties that are required to process the data safely and correctly."
+  ],
+  "source_request": {
+    "commit": "8c5d79f118421157aa96a4e859e1a2c08c01babb",
+    "repository": "https://github.com/ctripcorp/apollo"
+  }
+}

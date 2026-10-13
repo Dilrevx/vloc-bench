@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-1321: Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution') — The product receives input from an upstream component that specifies attributes that are to be initialized or updated in an object, but it does not properly control modifications of attributes of the object prototype."
+  ],
+  "source_request": {
+    "commit": "1dbd1ed6bef76f359dcf44d5b0e849d4881540b2",
+    "repository": "https://github.com/manuelstofer/json-pointer"
+  }
+}

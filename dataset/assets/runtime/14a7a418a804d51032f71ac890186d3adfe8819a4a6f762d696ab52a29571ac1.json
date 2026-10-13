@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-532: Insertion of Sensitive Information into Log File — The product writes sensitive information to a log file."
+  ],
+  "source_request": {
+    "commit": "184cadda93c13fafb13e75af93235395e400a467",
+    "repository": "https://github.com/ydb-platform/ydb-go-sdk"
+  }
+}

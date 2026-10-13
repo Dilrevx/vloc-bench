@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') — The product does not neutralize or incorrectly neutralizes user-controllable input before it is placed in output that is used as a web page that is served to other users."
+  ],
+  "source_request": {
+    "commit": "7e829b5d52c32d2e6d8f5fbcf0f8f418fffde083",
+    "repository": "https://github.com/webtorrent/webtorrent"
+  }
+}

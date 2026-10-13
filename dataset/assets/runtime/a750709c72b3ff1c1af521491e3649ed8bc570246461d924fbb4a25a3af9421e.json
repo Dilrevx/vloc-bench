@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-674: Uncontrolled Recursion — The product does not properly control the amount of recursion that takes place, consuming excessive resources, such as allocated memory or the program stack.",
+    "CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop') — The product contains an iteration or loop with an exit condition that cannot be reached, i.e., an infinite loop."
+  ],
+  "source_request": {
+    "commit": "026cce5ef157a26fc2287e47692516dd0dd3e9f1",
+    "repository": "https://github.com/NLnetLabs/routinator"
+  }
+}

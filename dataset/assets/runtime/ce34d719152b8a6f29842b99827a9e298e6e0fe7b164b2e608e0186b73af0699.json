@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-295: Improper Certificate Validation — The product does not validate, or incorrectly validates, a certificate."
+  ],
+  "source_request": {
+    "commit": "938c44c344391cb952080fc966ce325b432286ed",
+    "repository": "https://github.com/mellium/xmpp"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "cwe_descriptions": [
+    "CWE-121: Stack-based Buffer Overflow — A stack-based buffer overflow condition is a condition where the buffer being overwritten is allocated on the stack (i.e., is a local variable or, rarely, a parameter to a function).",
+    "CWE-502: Deserialization of Untrusted Data — The product deserializes untrusted data without sufficiently ensuring that the resulting data will be valid.",
+    "CWE-787: Out-of-bounds Write — The product writes data past the end, or before the beginning, of the intended buffer."
+  ],
+  "source_request": {
+    "commit": "7e93907e9c98270e76e20d55c4d35bd600edbb20",
+    "repository": "https://github.com/FasterXML/woodstox"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-95: Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection') — The product receives input from an upstream component, but it does not neutralize or incorrectly neutralizes code syntax before using the input in a dynamic evaluation call (e.g. eval)."
+  ],
+  "source_request": {
+    "commit": "0d1758f8f5db19d43acc36d8df46c1b55eb24dad",
+    "repository": "https://github.com/geotools/geotools"
+  }
+}

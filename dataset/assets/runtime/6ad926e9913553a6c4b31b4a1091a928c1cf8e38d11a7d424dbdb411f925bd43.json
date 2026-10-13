@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-400: Uncontrolled Resource Consumption — The product does not properly control the allocation and maintenance of a limited resource."
+  ],
+  "source_request": {
+    "commit": "74aa751e75a90af34ef63377fcbd41285d155380",
+    "repository": "https://github.com/Twipped/ircdkit"
+  }
+}

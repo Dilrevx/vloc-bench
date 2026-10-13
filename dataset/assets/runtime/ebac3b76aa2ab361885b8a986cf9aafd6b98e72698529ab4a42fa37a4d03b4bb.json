@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-177: Improper Handling of URL Encoding (Hex Encoding) — The product does not properly handle when all or part of an input has been URL encoded."
+  ],
+  "source_request": {
+    "commit": "d44cd56eb724490babf7b452fdbbdd37ea2effba",
+    "repository": "https://github.com/fastify/middie"
+  }
+}

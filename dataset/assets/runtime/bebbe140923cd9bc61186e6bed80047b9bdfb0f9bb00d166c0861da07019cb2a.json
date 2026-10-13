@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-862: Missing Authorization — The product does not perform an authorization check when an actor attempts to access a resource or perform an action."
+  ],
+  "source_request": {
+    "commit": "d4d927a19313a2b7d8eb55c29b3a8a190879d2f1",
+    "repository": "https://github.com/geoserver/geoserver"
+  }
+}

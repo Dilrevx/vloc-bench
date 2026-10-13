@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-674: Uncontrolled Recursion — The product does not properly control the amount of recursion that takes place, consuming excessive resources, such as allocated memory or the program stack."
+  ],
+  "source_request": {
+    "commit": "e31e6f90cdf9b425c0584484aaac0db4a79b2c15",
+    "repository": "https://github.com/apache/pinot"
+  }
+}

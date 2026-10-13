@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-862: Missing Authorization — The product does not perform an authorization check when an actor attempts to access a resource or perform an action."
+  ],
+  "source_request": {
+    "commit": "0e83de3c155bd54a4a408be935b53a4071861e83",
+    "repository": "https://github.com/kgateway-dev/kgateway"
+  }
+}

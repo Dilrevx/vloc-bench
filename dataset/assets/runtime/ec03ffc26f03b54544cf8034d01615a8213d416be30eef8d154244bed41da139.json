@@ -1,0 +1,11 @@
+{
+  "cwe_descriptions": [
+    "CWE-200: Exposure of Sensitive Information to an Unauthorized Actor — The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information.",
+    "CWE-863: Incorrect Authorization — The product performs an authorization check when an actor attempts to access a resource or perform an action, but it does not correctly perform the check.",
+    "CWE-921: Storage of Sensitive Data in a Mechanism without Access Control — The product stores sensitive information in a file system or device that does not have built-in access control."
+  ],
+  "source_request": {
+    "commit": "4b70b44b430ecf8377a276e89b5acd3a6957d4ea",
+    "repository": "https://github.com/coreos/ignition"
+  }
+}

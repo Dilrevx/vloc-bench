@@ -1,0 +1,11 @@
+{
+  "cwe_descriptions": [
+    "CWE-214: Invocation of Process Using Visible Sensitive Information — A process is invoked with sensitive command-line arguments, environment variables, or other elements that can be seen by other processes on the operating system.",
+    "CWE-400: Uncontrolled Resource Consumption — The product does not properly control the allocation and maintenance of a limited resource.",
+    "CWE-668: Exposure of Resource to Wrong Sphere — The product exposes a resource to the wrong control sphere, providing unintended actors with inappropriate access to the resource."
+  ],
+  "source_request": {
+    "commit": "db0f5be43f8e2a4b88fbedd2eb6d5a95a29ceaa8",
+    "repository": "https://github.com/undertow-io/undertow"
+  }
+}

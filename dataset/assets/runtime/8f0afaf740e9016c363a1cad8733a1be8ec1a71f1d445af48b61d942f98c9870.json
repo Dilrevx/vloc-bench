@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-940: Improper Verification of Source of a Communication Channel — The product establishes a communication channel to handle an incoming request that has been initiated by an actor, but it does not properly verify that the request is coming from the expected origin."
+  ],
+  "source_request": {
+    "commit": "48998a95a036990f8f4f49b9c985e4190405bcf6",
+    "repository": "https://github.com/cilium/cilium"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-400: Uncontrolled Resource Consumption — The product does not properly control the allocation and maintenance of a limited resource."
+  ],
+  "source_request": {
+    "commit": "98e0916d7b017669c93855d831c6e0b19c14141e",
+    "repository": "https://github.com/salesforce/tough-cookie"
+  }
+}

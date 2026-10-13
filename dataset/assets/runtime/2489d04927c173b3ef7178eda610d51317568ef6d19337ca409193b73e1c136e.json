@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-400: Uncontrolled Resource Consumption — The product does not properly control the allocation and maintenance of a limited resource.",
+    "CWE-667: Improper Locking — The product does not properly acquire or release a lock on a resource, leading to unexpected resource state changes and behaviors."
+  ],
+  "source_request": {
+    "commit": "29dc2106ab5984a7f807d8711aff3a5735425aaa",
+    "repository": "https://github.com/containers/storage"
+  }
+}

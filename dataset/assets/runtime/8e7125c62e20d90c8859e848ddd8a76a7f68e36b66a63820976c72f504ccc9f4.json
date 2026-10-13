@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-200: Exposure of Sensitive Information to an Unauthorized Actor — The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information."
+  ],
+  "source_request": {
+    "commit": "0a096e66ba185d02caa5172fa677087dd4aba065",
+    "repository": "https://github.com/argoproj/argo-workflows"
+  }
+}

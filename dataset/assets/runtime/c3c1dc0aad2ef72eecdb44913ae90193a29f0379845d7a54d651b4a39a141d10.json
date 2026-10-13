@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-400: Uncontrolled Resource Consumption — The product does not properly control the allocation and maintenance of a limited resource.",
+    "CWE-1050: Excessive Platform Resource Consumption within a Loop — The product has a loop body or loop condition that contains a control element that directly or indirectly consumes platform resources, e.g. messaging, sessions, locks, or file descriptors."
+  ],
+  "source_request": {
+    "commit": "415d660c3002d1ab7e63dbf490c9851da80596ff",
+    "repository": "https://github.com/micromatch/braces"
+  }
+}

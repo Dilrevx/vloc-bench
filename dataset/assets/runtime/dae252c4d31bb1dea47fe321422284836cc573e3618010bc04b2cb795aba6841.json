@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-76: Improper Neutralization of Equivalent Special Elements — The product correctly neutralizes certain special elements, but it improperly neutralizes equivalent special elements."
+  ],
+  "source_request": {
+    "commit": "f4d34673d09e2361303f44c528d9dbc8107c7e39",
+    "repository": "https://github.com/BerriAI/litellm"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-354: Improper Validation of Integrity Check Value — The product does not validate or incorrectly validates the integrity check values or checksums of a message. This may prevent it from detecting if the data has been modified or corrupted in transmission."
+  ],
+  "source_request": {
+    "commit": "6f69e41311c7d1d68c3f1a984619e74fb25a4e3f",
+    "repository": "https://github.com/apache/mina-sshd"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-200: Exposure of Sensitive Information to an Unauthorized Actor — The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information.",
+    "CWE-922: Insecure Storage of Sensitive Information — The product stores sensitive information without properly limiting read or write access by unauthorized actors."
+  ],
+  "source_request": {
+    "commit": "aafdb507a9e66574ade1f68c50c4fe75dbe80797",
+    "repository": "https://github.com/WeblateOrg/wlc"
+  }
+}

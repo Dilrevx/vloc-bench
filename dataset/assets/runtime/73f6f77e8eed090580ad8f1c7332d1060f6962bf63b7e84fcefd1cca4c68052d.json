@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-295: Improper Certificate Validation — The product does not validate, or incorrectly validates, a certificate."
+  ],
+  "source_request": {
+    "commit": "a513864ec4daad00146e6d6e039559726e256fa3",
+    "repository": "https://github.com/WeblateOrg/wlc"
+  }
+}

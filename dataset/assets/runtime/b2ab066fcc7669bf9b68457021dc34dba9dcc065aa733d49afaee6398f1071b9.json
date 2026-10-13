@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-400: Uncontrolled Resource Consumption — The product does not properly control the allocation and maintenance of a limited resource."
+  ],
+  "source_request": {
+    "commit": "cf7b0fd50303564ca2a7208c55c3f8c5e77f3d63",
+    "repository": "https://github.com/PrismJS/prism"
+  }
+}

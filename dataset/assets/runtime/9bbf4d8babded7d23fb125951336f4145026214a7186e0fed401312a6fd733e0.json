@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-179: Incorrect Behavior Order: Early Validation — The product validates input before applying protection mechanisms that modify the input, which could allow an attacker to bypass the validation via dangerous inputs that only arise after the modification."
+  ],
+  "source_request": {
+    "commit": "9e5305bd3e4f0c6acc0d23ec43eac2bd5303b4ca",
+    "repository": "https://github.com/lirantal/lockfile-lint"
+  }
+}

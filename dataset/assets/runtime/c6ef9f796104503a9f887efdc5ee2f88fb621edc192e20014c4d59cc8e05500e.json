@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-732: Incorrect Permission Assignment for Critical Resource — The product specifies permissions for a security-critical resource in a way that allows that resource to be read or modified by unintended actors."
+  ],
+  "source_request": {
+    "commit": "dd1e4ffd0dbd6b7075bd9e5b2cee498ceb1394db",
+    "repository": "https://github.com/hashicorp/consul"
+  }
+}

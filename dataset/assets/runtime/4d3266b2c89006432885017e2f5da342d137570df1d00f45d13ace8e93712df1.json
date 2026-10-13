@@ -1,0 +1,7 @@
+{
+  "cwe_descriptions": [],
+  "source_request": {
+    "commit": "70a0309ef7e963f69de9d267015b067ccfb8ff6c",
+    "repository": "https://github.com/cert-manager/cert-manager"
+  }
+}

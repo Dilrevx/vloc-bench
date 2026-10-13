@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-522: Insufficiently Protected Credentials — The product transmits or stores authentication credentials, but it uses an insecure method that is susceptible to unauthorized interception and/or retrieval."
+  ],
+  "source_request": {
+    "commit": "0e826ceae97a1258cb15c73a3072118c920e8654",
+    "repository": "https://github.com/apache/shenyu"
+  }
+}

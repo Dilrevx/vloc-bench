@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-200: Exposure of Sensitive Information to an Unauthorized Actor — The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information."
+  ],
+  "source_request": {
+    "commit": "4ca83d6fde386e15c76a7ef92373adb6280dd498",
+    "repository": "https://github.com/maxogden/concat-stream"
+  }
+}

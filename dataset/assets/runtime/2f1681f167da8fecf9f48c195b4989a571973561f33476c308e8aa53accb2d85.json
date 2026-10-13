@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-20: Improper Input Validation — The product receives input or data, but it does not validate or incorrectly validates that the input has the properties that are required to process the data safely and correctly.",
+    "CWE-327: Use of a Broken or Risky Cryptographic Algorithm — The product uses a broken or risky cryptographic algorithm or protocol."
+  ],
+  "source_request": {
+    "commit": "6db3cf8e5b4cfb2a3cd1d99a813b50b2d5d363bb",
+    "repository": "https://github.com/hashicorp/terraform"
+  }
+}

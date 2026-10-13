@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-276: Incorrect Default Permissions — During installation, installed file permissions are set to allow anyone to modify those files."
+  ],
+  "source_request": {
+    "commit": "91aa3ebf42032ca783c41f9ec25d885875f66ddb",
+    "repository": "https://github.com/google/fscrypt"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-613: Insufficient Session Expiration — According to WASC, Insufficient Session Expiration is when a web site permits an attacker to reuse old session credentials or session IDs for authorization."
+  ],
+  "source_request": {
+    "commit": "736b385d7bad8907fb57cd6c49b340be83bf94ea",
+    "repository": "https://github.com/vmware-tanzu/pinniped"
+  }
+}

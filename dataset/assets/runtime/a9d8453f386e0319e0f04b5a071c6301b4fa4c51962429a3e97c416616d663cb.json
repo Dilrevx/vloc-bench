@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-502: Deserialization of Untrusted Data — The product deserializes untrusted data without sufficiently ensuring that the resulting data will be valid.",
+    "CWE-552: Files or Directories Accessible to External Parties — The product makes files or directories accessible to unauthorized actors, even though they should not be."
+  ],
+  "source_request": {
+    "commit": "70c1c6c31beb6baaf52c8db1b6c3c0e84a6f9dab",
+    "repository": "https://github.com/mmaitre314/picklescan"
+  }
+}

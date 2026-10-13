@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-400: Uncontrolled Resource Consumption — The product does not properly control the allocation and maintenance of a limited resource.",
+    "CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop') — The product contains an iteration or loop with an exit condition that cannot be reached, i.e., an infinite loop."
+  ],
+  "source_request": {
+    "commit": "ea92927b70aaf44902190be4516fd00611f1934a",
+    "repository": "https://github.com/sigstore/cosign"
+  }
+}

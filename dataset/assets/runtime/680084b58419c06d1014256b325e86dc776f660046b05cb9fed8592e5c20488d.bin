@@ -1,0 +1,92 @@
+Vulnerability Localization Benchmark
+Copyright 2026 Cisco Foundation AI
+
+This product includes software developed at Cisco Foundation AI.
+
+================================================================================
+
+DATA SOURCES AND ATTRIBUTION
+
+This benchmark is built entirely from publicly available data sources.
+
+--------------------------------------------------------------------------------
+GitHub Security Advisory Database
+--------------------------------------------------------------------------------
+
+This benchmark uses vulnerability metadata from the GitHub Security Advisory
+Database (https://github.com/advisories), including:
+
+  - Vulnerability descriptions (GHSA entries)
+  - Common Vulnerabilities and Exposures (CVE) identifiers
+  - Common Weakness Enumeration (CWE) classifications
+  - Severity ratings and CVSS scores
+
+The GitHub Security Advisory Database is publicly accessible and subject to
+GitHub's Terms of Service (https://docs.github.com/en/site-policy).
+
+We gratefully acknowledge the security researchers who discovered and
+responsibly disclosed these vulnerabilities, and the GitHub team for
+maintaining this public resource.
+
+--------------------------------------------------------------------------------
+Open Source Repository Snapshots
+--------------------------------------------------------------------------------
+
+This benchmark requires snapshots of open source repositories at specific
+commits (both vulnerable and patched states). It provides a utility to fetch
+the dataset repository content. Each repository retains its
+original open source license.
+
+IMPORTANT: All repository content is subject to the original repository's
+license terms. The complete license information for each of the 500 included
+repositories is documented in data/manifest.csv (columns: vulnerable_LICENSE
+and merge_LICENSE).
+
+License Distribution of Included Repositories:
+  - Apache-2.0:    241 repositories (48.2%)
+  - MIT:           161 repositories (32.2%)
+  - Other:          46 repositories (9.2%)
+  - GPL-3.0:        15 repositories (3.0%)
+  - LGPL:           12 repositories (2.4%)
+  - MPL-2.0:        12 repositories (2.4%)
+  - BSD-3-Clause:    5 repositories (1.0%)
+  - Creative Commons: 4 repositories (0.8%)
+  - ISC:             2 repositories (0.4%)
+  - GPL-2.0:         1 repository  (0.2%)
+  - AGPL-3.0:        1 repository  (0.2%)
+
+We acknowledge and thank all open source maintainers whose repositories are
+included in this benchmark. Their contributions to open source software and
+responsible vulnerability disclosure make this research possible.
+
+--------------------------------------------------------------------------------
+License Compliance Requirements
+--------------------------------------------------------------------------------
+
+Users of this benchmark MUST:
+
+1. Comply with the license terms of each included repository
+2. Retain all copyright notices and license information from original repositories
+3. Refer to data/manifest.csv for specific license information per repository
+4. Acknowledge that repository snapshots are provided for research and
+   evaluation purposes
+
+No modifications were made to any repository licenses between vulnerable and
+patched states.
+
+================================================================================
+
+DISCLAIMER
+
+This benchmark provides historical snapshots of vulnerabilities for research
+and evaluation purposes. The vulnerability information and code snapshots
+reflect the state at the time of dataset creation and may not represent
+current repository states.
+
+THE BENCHMARK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED. See the LICENSE file for complete terms.
+
+================================================================================
+
+For questions about data sources, attribution, or licensing, please open an
+issue at https://github.com/cisco-foundation-ai/vulnerability-localization-benchmark.

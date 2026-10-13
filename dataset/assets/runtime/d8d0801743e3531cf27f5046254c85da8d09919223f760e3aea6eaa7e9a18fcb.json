@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-285: Improper Authorization — The product does not perform or incorrectly performs an authorization check when an actor attempts to access a resource or perform an action."
+  ],
+  "source_request": {
+    "commit": "1c489b622fbeecaa423321331d6b21cc2ae8935e",
+    "repository": "https://github.com/yahoo/elide"
+  }
+}

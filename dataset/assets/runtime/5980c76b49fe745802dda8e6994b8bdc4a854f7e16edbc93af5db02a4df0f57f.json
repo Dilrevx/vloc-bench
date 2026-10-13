@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-178: Improper Handling of Case Sensitivity — The product does not properly account for differences in case sensitivity when accessing or determining the properties of a resource, leading to inconsistent results.",
+    "CWE-863: Incorrect Authorization — The product performs an authorization check when an actor attempts to access a resource or perform an action, but it does not correctly perform the check."
+  ],
+  "source_request": {
+    "commit": "b3b875c7c0436a7f30d2498138e782ad6d450724",
+    "repository": "https://github.com/mosn/mosn"
+  }
+}

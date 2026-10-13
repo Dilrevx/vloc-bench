@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-918: Server-Side Request Forgery (SSRF) — The web server receives a URL or similar request from an upstream component and retrieves the contents of this URL, but it does not sufficiently ensure that the request is being sent to the expected destination."
+  ],
+  "source_request": {
+    "commit": "bc39a90a7f567686da59018f2bc2eadde4b24716",
+    "repository": "https://github.com/zalando/skipper"
+  }
+}

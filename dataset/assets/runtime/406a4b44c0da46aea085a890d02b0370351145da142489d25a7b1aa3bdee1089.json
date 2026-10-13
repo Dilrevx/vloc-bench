@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-400: Uncontrolled Resource Consumption — The product does not properly control the allocation and maintenance of a limited resource."
+  ],
+  "source_request": {
+    "commit": "afaf31aeebc06a5fc451ec31e9ec77742f0e83bb",
+    "repository": "https://github.com/grpc/grpc-go"
+  }
+}

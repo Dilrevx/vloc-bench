@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-611: Improper Restriction of XML External Entity Reference — The product processes an XML document that can contain XML entities with URIs that resolve to documents outside of the intended sphere of control, causing the product to embed incorrect documents into its output."
+  ],
+  "source_request": {
+    "commit": "7d66ed1cf12e84ab689f701d77e5108c190c2083",
+    "repository": "https://github.com/eclipse-pde/eclipse.pde"
+  }
+}

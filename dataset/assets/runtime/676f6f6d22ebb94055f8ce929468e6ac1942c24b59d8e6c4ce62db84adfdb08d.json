@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-125: Out-of-bounds Read — The product reads data past the end, or before the beginning, of the intended buffer."
+  ],
+  "source_request": {
+    "commit": "7e5d9ee32d9694a045b7f5c6ccdc2cd806dd30dd",
+    "repository": "https://github.com/uutils/coreutils"
+  }
+}

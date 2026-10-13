@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-400: Uncontrolled Resource Consumption — The product does not properly control the allocation and maintenance of a limited resource.",
+    "CWE-488: Exposure of Data Element to Wrong Session — The product does not sufficiently enforce boundaries between the states of different sessions, causing data to be provided to, or used by, the wrong session."
+  ],
+  "source_request": {
+    "commit": "303ccdfb7e13e0ff35e29d1e153ec6a6d0fddcc4",
+    "repository": "https://github.com/undertow-io/undertow"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-362: Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition') — The product contains a concurrent code sequence that requires temporary, exclusive access to a shared resource, but a timing window exists in which the shared resource can be modified by another code sequence operating concurrently."
+  ],
+  "source_request": {
+    "commit": "7de94f95f519d8281cb48457964065b463d26736",
+    "repository": "https://github.com/Amanieu/parking_lot"
+  }
+}

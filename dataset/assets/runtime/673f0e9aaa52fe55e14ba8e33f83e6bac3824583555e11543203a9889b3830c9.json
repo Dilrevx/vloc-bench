@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-703: Improper Check or Handling of Exceptional Conditions — The product does not properly anticipate or handle exceptional conditions that rarely occur during normal operation of the product."
+  ],
+  "source_request": {
+    "commit": "064f6168a8dfebdeb2ea147f7882bb9f5d2b7f67",
+    "repository": "https://github.com/open-policy-agent/opa"
+  }
+}

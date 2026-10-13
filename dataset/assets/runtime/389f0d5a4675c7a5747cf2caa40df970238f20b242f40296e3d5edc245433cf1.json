@@ -1,0 +1,7 @@
+{
+  "cwe_descriptions": [],
+  "source_request": {
+    "commit": "c7710414aa256c7cd33fb4530656f5ab38e306f7",
+    "repository": "https://github.com/jblondin/csv-sniffer"
+  }
+}

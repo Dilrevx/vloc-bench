@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-352: Cross-Site Request Forgery (CSRF) — The web application does not, or cannot, sufficiently verify whether a request was intentionally provided by the user who sent the request, which could have originated from an unauthorized actor.",
+    "CWE-565: Reliance on Cookies without Validation and Integrity Checking — The product relies on the existence or values of cookies when performing security-critical operations, but it does not properly ensure that the setting is valid for the associated user."
+  ],
+  "source_request": {
+    "commit": "0d5fd14ba74491ab4cd2d5de6f7b398fa9d224ec",
+    "repository": "https://github.com/fastify/csrf"
+  }
+}

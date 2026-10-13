@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-863: Incorrect Authorization — The product performs an authorization check when an actor attempts to access a resource or perform an action, but it does not correctly perform the check."
+  ],
+  "source_request": {
+    "commit": "4d48b89285e45b2f857bc107b4c2ba6489435ee9",
+    "repository": "https://github.com/OpenNMS/opennms"
+  }
+}

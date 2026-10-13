@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-601: URL Redirection to Untrusted Site ('Open Redirect') — The web application accepts a user-controlled input that specifies a link to an external site, and uses that link in a redirect."
+  ],
+  "source_request": {
+    "commit": "67e304f3724e25254822a8c661a67b70f3ab6a6a",
+    "repository": "https://github.com/gophish/gophish"
+  }
+}

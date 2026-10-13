@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-266: Incorrect Privilege Assignment — A product incorrectly assigns a privilege to a particular actor, creating an unintended sphere of control for that actor."
+  ],
+  "source_request": {
+    "commit": "f6056f52559241f4ada7be12b5447beea6ded80d",
+    "repository": "https://github.com/karmada-io/karmada"
+  }
+}

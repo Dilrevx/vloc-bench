@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-662: Improper Synchronization — The product utilizes multiple threads, processes, components, or systems to allow temporary access to a shared resource that can only be exclusive to one process at a time, but it does not properly synchronize these actions, which might cause simultaneous accesses of this resource by multiple threads or processes."
+  ],
+  "source_request": {
+    "commit": "1ce583b2c8033b1fd337f51c1dbf2db3bc113fd6",
+    "repository": "https://github.com/vyperlang/vyper"
+  }
+}

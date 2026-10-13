@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop') — The product contains an iteration or loop with an exit condition that cannot be reached, i.e., an infinite loop."
+  ],
+  "source_request": {
+    "commit": "d8f06aa52ddf0f181e580a34204ea70c89550f64",
+    "repository": "https://github.com/undertow-io/undertow"
+  }
+}

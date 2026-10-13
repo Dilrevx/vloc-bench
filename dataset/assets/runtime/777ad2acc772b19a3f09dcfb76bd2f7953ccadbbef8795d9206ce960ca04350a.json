@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-755: Improper Handling of Exceptional Conditions — The product does not handle or incorrectly handles an exceptional condition."
+  ],
+  "source_request": {
+    "commit": "8d34ee5819cfc983d57e49b45d8c5ef70a76d79b",
+    "repository": "https://github.com/moscajs/aedes"
+  }
+}

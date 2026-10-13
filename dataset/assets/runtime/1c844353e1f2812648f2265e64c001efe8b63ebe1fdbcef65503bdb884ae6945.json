@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-131: Incorrect Calculation of Buffer Size — The product does not correctly calculate the size to be used when allocating a buffer, which could lead to a buffer overflow."
+  ],
+  "source_request": {
+    "commit": "5a68889cbc490f71fce5e615572e586cf15668a6",
+    "repository": "https://github.com/crossbeam-rs/crossbeam"
+  }
+}

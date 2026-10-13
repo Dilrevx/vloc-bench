@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-252: Unchecked Return Value — The product does not check the return value from a method or function, which can prevent it from detecting unexpected states and conditions.",
+    "CWE-755: Improper Handling of Exceptional Conditions — The product does not handle or incorrectly handles an exceptional condition."
+  ],
+  "source_request": {
+    "commit": "0e4726d152e088749e0ef7404f44a4217f6f9d92",
+    "repository": "https://github.com/ipfs/go-merkledag"
+  }
+}

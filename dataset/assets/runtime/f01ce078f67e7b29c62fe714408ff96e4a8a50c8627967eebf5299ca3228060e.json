@@ -1,0 +1,11 @@
+{
+  "cwe_descriptions": [
+    "CWE-551: Incorrect Behavior Order: Authorization Before Parsing and Canonicalization — If a web server does not fully parse requested URLs before it examines them for authorization, it may be possible for an attacker to bypass authorization protection.",
+    "CWE-696: Incorrect Behavior Order — The product performs multiple related behaviors, but the behaviors are performed in the wrong order in ways that may produce resultant weaknesses.",
+    "CWE-862: Missing Authorization — The product does not perform an authorization check when an actor attempts to access a resource or perform an action."
+  ],
+  "source_request": {
+    "commit": "25ee3bec78c859806ee4733fa486f630cfb38a87",
+    "repository": "https://github.com/quarkusio/quarkus"
+  }
+}

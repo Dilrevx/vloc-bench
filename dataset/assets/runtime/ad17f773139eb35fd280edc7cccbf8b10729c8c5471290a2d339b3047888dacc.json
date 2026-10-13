@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-400: Uncontrolled Resource Consumption — The product does not properly control the allocation and maintenance of a limited resource."
+  ],
+  "source_request": {
+    "commit": "6608f3a9cabfaf489699e5cf348df67668ed11a1",
+    "repository": "https://github.com/mattermost/mattermost-server"
+  }
+}

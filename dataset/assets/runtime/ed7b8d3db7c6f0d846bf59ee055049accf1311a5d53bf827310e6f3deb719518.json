@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') — The product does not neutralize or incorrectly neutralizes user-controllable input before it is placed in output that is used as a web page that is served to other users.",
+    "CWE-116: Improper Encoding or Escaping of Output — The product prepares a structured message for communication with another component, but encoding or escaping of the data is either missing or done incorrectly. As a result, the intended structure of the message is not preserved."
+  ],
+  "source_request": {
+    "commit": "ccf1a992da3556262b0a2d571f8b823a3b33c242",
+    "repository": "https://github.com/apache/zeppelin"
+  }
+}

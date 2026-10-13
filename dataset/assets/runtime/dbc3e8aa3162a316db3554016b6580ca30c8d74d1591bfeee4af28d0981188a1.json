@@ -1,0 +1,11 @@
+{
+  "cwe_descriptions": [
+    "CWE-400: Uncontrolled Resource Consumption — The product does not properly control the allocation and maintenance of a limited resource.",
+    "CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop') — The product contains an iteration or loop with an exit condition that cannot be reached, i.e., an infinite loop.",
+    "CWE-1288: Improper Validation of Consistency within Input — The product receives a complex input with multiple elements or fields that must be consistent with each other, but it does not validate or incorrectly validates that the input is actually consistent."
+  ],
+  "source_request": {
+    "commit": "30337723566e9ac18c1c8fb57688cb7d4e24ca03",
+    "repository": "https://github.com/dfinity/candid"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-20: Improper Input Validation — The product receives input or data, but it does not validate or incorrectly validates that the input has the properties that are required to process the data safely and correctly."
+  ],
+  "source_request": {
+    "commit": "70a0309ef7e963f69de9d267015b067ccfb8ff6c",
+    "repository": "https://github.com/cert-manager/cert-manager"
+  }
+}

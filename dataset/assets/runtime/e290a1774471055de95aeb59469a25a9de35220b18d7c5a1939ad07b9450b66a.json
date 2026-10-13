@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-502: Deserialization of Untrusted Data — The product deserializes untrusted data without sufficiently ensuring that the resulting data will be valid."
+  ],
+  "source_request": {
+    "commit": "5a47697519018eb4918df33a21faae811e85f01a",
+    "repository": "https://github.com/hazelcast/hazelcast"
+  }
+}

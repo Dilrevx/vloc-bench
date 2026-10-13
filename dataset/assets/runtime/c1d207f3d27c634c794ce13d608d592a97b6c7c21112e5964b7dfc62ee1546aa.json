@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-863: Incorrect Authorization — The product performs an authorization check when an actor attempts to access a resource or perform an action, but it does not correctly perform the check."
+  ],
+  "source_request": {
+    "commit": "7e38bb538b30498a4ebc39b8013ea2fd7c73b37e",
+    "repository": "https://github.com/cilium/cilium"
+  }
+}

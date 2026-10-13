@@ -1,0 +1,11 @@
+{
+  "cwe_descriptions": [
+    "CWE-123: Write-what-where Condition — Any condition where the attacker has the ability to write an arbitrary value to an arbitrary location, often as the result of a buffer overflow.",
+    "CWE-200: Exposure of Sensitive Information to an Unauthorized Actor — The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information.",
+    "CWE-732: Incorrect Permission Assignment for Critical Resource — The product specifies permissions for a security-critical resource in a way that allows that resource to be read or modified by unintended actors."
+  ],
+  "source_request": {
+    "commit": "ff3b69b08b6b9c8d08d23735ca8d82455f790a69",
+    "repository": "https://github.com/kubevirt/kubevirt"
+  }
+}

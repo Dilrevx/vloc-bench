@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-327: Use of a Broken or Risky Cryptographic Algorithm — The product uses a broken or risky cryptographic algorithm or protocol."
+  ],
+  "source_request": {
+    "commit": "ed11232d1d6dfa51e167c240896f6429019b457c",
+    "repository": "https://github.com/nablarch/nablarch-fw-web"
+  }
+}

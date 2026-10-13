@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-276: Incorrect Default Permissions — During installation, installed file permissions are set to allow anyone to modify those files.",
+    "CWE-456: Missing Initialization of a Variable — The product does not initialize critical variables, which causes the execution environment to use unexpected values."
+  ],
+  "source_request": {
+    "commit": "18ea1dab2f0dcb558209329f033dba1a4d1c5a97",
+    "repository": "https://github.com/kolide/launcher"
+  }
+}

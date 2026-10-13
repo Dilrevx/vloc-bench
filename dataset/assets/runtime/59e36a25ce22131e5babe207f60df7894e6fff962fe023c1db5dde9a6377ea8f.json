@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-400: Uncontrolled Resource Consumption — The product does not properly control the allocation and maintenance of a limited resource.\n\nCWE-834: Excessive Iteration — The product performs an iteration or loop without sufficiently limiting the number of times that the loop is executed."
+  ],
+  "source_request": {
+    "commit": "9c04cbc40fdad04dcaad8758dca3c4033435ff5d",
+    "repository": "https://github.com/hashicorp/consul"
+  }
+}

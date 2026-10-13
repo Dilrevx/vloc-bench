@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-532: Insertion of Sensitive Information into Log File — The product writes sensitive information to a log file."
+  ],
+  "source_request": {
+    "commit": "dd3e8c593580e7b80a98b57e1cc6e017e56747b4",
+    "repository": "https://github.com/elastic/apm-agent-go"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "cwe_descriptions": [
+    "CWE-20: Improper Input Validation — The product receives input or data, but it does not validate or incorrectly validates that the input has the properties that are required to process the data safely and correctly.",
+    "CWE-400: Uncontrolled Resource Consumption — The product does not properly control the allocation and maintenance of a limited resource.",
+    "CWE-787: Out-of-bounds Write — The product writes data past the end, or before the beginning, of the intended buffer."
+  ],
+  "source_request": {
+    "commit": "7c21cc4f03332d1d07d020dafecb398f2aa8ea7f",
+    "repository": "https://github.com/FasterXML/jackson-dataformats-text"
+  }
+}

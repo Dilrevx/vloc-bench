@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-248: Uncaught Exception — An exception is thrown from a function, but it is not caught."
+  ],
+  "source_request": {
+    "commit": "4a023dc5095a4b30fdc8535f705ed34cd22d2f7d",
+    "repository": "https://github.com/balderdashy/sails"
+  }
+}

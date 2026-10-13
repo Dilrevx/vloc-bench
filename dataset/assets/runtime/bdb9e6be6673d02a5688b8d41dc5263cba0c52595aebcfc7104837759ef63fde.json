@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-532: Insertion of Sensitive Information into Log File — The product writes sensitive information to a log file."
+  ],
+  "source_request": {
+    "commit": "e9d29b1fe4285d90d7a4506b80260a9e24c3bcea",
+    "repository": "https://github.com/ansible/ansible"
+  }
+}

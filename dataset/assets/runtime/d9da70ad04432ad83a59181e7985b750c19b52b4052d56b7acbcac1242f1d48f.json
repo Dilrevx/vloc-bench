@@ -1,0 +1,7 @@
+{
+  "cwe_descriptions": [],
+  "source_request": {
+    "commit": "1939fc3dca13fe1fbae0247d4ec25c4a4449d618",
+    "repository": "https://github.com/superfly/tokenizer"
+  }
+}

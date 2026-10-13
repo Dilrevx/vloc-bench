@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-770: Allocation of Resources Without Limits or Throttling — The product allocates a reusable resource or group of resources on behalf of an actor without imposing any intended restrictions on the size or number of resources that can be allocated."
+  ],
+  "source_request": {
+    "commit": "920ded24402b2727dedb6eb59d8d98ca4997c0e8",
+    "repository": "https://github.com/notaryproject/notation-go"
+  }
+}

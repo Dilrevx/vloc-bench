@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-915: Improperly Controlled Modification of Dynamically-Determined Object Attributes — The product receives input from an upstream component that specifies multiple attributes, properties, or fields that are to be initialized or updated in an object, but it does not properly control which attributes can be modified.",
+    "CWE-1321: Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution') — The product receives input from an upstream component that specifies attributes that are to be initialized or updated in an object, but it does not properly control modifications of attributes of the object prototype."
+  ],
+  "source_request": {
+    "commit": "dff7140070c4e68731f17d577cca9fd82fe55498",
+    "repository": "https://github.com/chartjs/Chart.js"
+  }
+}

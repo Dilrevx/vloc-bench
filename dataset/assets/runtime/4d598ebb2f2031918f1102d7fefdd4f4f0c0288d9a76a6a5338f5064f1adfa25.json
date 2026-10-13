@@ -1,0 +1,7 @@
+{
+  "cwe_descriptions": [],
+  "source_request": {
+    "commit": "5c6a43dedebf975508465b375af98e9afde2f49c",
+    "repository": "https://github.com/mafintosh/is-my-json-valid"
+  }
+}

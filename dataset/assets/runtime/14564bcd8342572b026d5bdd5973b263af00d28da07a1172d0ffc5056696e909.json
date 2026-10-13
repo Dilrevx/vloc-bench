@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-1336: Improper Neutralization of Special Elements Used in a Template Engine — The product uses a template engine to insert or process externally-influenced input, but it does not neutralize or incorrectly neutralizes special elements or syntax that can be interpreted as template expressions or other code directives when processed by the engine."
+  ],
+  "source_request": {
+    "commit": "1f58ec20a8d5d5f75327eb90b78d3af9cd7167a2",
+    "repository": "https://github.com/deepset-ai/haystack"
+  }
+}

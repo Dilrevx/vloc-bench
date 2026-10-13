@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-639: Authorization Bypass Through User-Controlled Key — The system's authorization functionality does not prevent one user from gaining access to another user's data or record by modifying the key value identifying the data.",
+    "CWE-863: Incorrect Authorization — The product performs an authorization check when an actor attempts to access a resource or perform an action, but it does not correctly perform the check."
+  ],
+  "source_request": {
+    "commit": "57e06711b0d861775a5a6bd078a34abeb0e2638e",
+    "repository": "https://github.com/concourse/concourse"
+  }
+}

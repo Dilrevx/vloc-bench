@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-345: Insufficient Verification of Data Authenticity — The product does not sufficiently verify the origin or authenticity of data, in a way that causes it to accept invalid data."
+  ],
+  "source_request": {
+    "commit": "62e76cfdf9aaaa3d0a26b78f7a93710406482274",
+    "repository": "https://github.com/mmaitre314/picklescan"
+  }
+}

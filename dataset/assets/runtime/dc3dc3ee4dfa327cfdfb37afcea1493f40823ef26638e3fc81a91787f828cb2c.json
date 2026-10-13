@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-284: Improper Access Control — The product does not restrict or incorrectly restricts access to a resource from an unauthorized actor.",
+    "CWE-863: Incorrect Authorization — The product performs an authorization check when an actor attempts to access a resource or perform an action, but it does not correctly perform the check."
+  ],
+  "source_request": {
+    "commit": "a84d3be015f0691516204e7d112447ea22c9c194",
+    "repository": "https://github.com/nats-io/jwt"
+  }
+}

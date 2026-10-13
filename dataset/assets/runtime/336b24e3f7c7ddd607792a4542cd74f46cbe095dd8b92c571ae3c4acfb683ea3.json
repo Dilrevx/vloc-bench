@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-113: Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting') — The product receives data from an HTTP agent/component (e.g., web server, proxy, browser, etc.), but it does not neutralize or incorrectly neutralizes CR and LF characters before the data is included in outgoing HTTP headers.",
+    "CWE-436: Interpretation Conflict — Product A handles inputs or steps differently than Product B, which causes A to perform incorrect actions based on its perception of B's state."
+  ],
+  "source_request": {
+    "commit": "980f48a9089849adda1d5035eb3ac5ba567a3b23",
+    "repository": "https://github.com/netty/netty"
+  }
+}

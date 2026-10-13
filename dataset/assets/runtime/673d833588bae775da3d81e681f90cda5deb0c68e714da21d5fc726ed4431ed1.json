@@ -1,0 +1,9 @@
+{
+  "cwe_descriptions": [
+    "CWE-732: Incorrect Permission Assignment for Critical Resource — The product specifies permissions for a security-critical resource in a way that allows that resource to be read or modified by unintended actors."
+  ],
+  "source_request": {
+    "commit": "7214e0be078c20ef53b27bcc8f4666d205fbf38e",
+    "repository": "https://github.com/apache/inlong"
+  }
+}

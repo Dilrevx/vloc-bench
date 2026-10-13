@@ -1,0 +1,10 @@
+{
+  "cwe_descriptions": [
+    "CWE-200: Exposure of Sensitive Information to an Unauthorized Actor — The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information.",
+    "CWE-346: Origin Validation Error — The product does not properly verify that the source of data or communication is valid."
+  ],
+  "source_request": {
+    "commit": "9fd61ce53b3dfe1f6b0cd693d1d486a11bc4bc1e",
+    "repository": "https://github.com/rootless-containers/rootlesskit"
+  }
+}
